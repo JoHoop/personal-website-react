@@ -1,9 +1,13 @@
 import React from "react";
 import "./App.css";
-import Typography from "@material-ui/core/Typography";
-import CssBaseline from "@material-ui/core/CssBaseline";
 import { makeStyles } from "@material-ui/core/styles";
-import Container from "@material-ui/core/Container";
+import { Typography, CssBaseline, Container, Link } from "@material-ui/core";
+import MailIcon from "@material-ui/icons/Mail";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import AddIcon from "@material-ui/icons/Add";
+import Fab from "@material-ui/core/Fab";
+import Tooltip from "@material-ui/core/Tooltip";
 import Copyright from "./components/Copyright";
 
 const useStyles = makeStyles((theme) => ({
@@ -24,6 +28,9 @@ const useStyles = makeStyles((theme) => ({
                 ? theme.palette.grey[200]
                 : theme.palette.grey[800],
     },
+    fab: {
+        margin: theme.spacing(2),
+    },
 }));
 
 export default function App() {
@@ -33,23 +40,41 @@ export default function App() {
         <div className={classes.root}>
             <CssBaseline />
             <Container component="main" className={classes.main} maxWidth="sm">
+                <Typography variant="h5" component="h2" gutterBottom>
+                    Hey, I'm
+                </Typography>
                 <Typography variant="h2" component="h1" gutterBottom>
-                    Sticky footer
+                    Jo Lienhoop
                 </Typography>
                 <Typography variant="h5" component="h2" gutterBottom>
-                    {"Pin a footer to the bottom of the viewport."}
-                    {
-                        "The footer will move as the main element of the page grows."
-                    }
+                    a computer science student based in Bremen, Germany.
                 </Typography>
-                <Typography variant="body1">
-                    Sticky footer placeholder.
-                </Typography>
+
+                <Tooltip title="Mail" aria-label="add">
+                    <Fab color="primary" className={classes.fab}>
+                        <MailIcon />
+                    </Fab>
+                </Tooltip>
+                <Tooltip title="LinkedIn" aria-label="add">
+                    <Fab color="primary" className={classes.fab}>
+                        <LinkedInIcon />
+                    </Fab>
+                </Tooltip>
+                <Tooltip title="GitHub" aria-label="add">
+                    <Fab color="primary" className={classes.fab}>
+                        <GitHubIcon />
+                    </Fab>
+                </Tooltip>
             </Container>
             <footer className={classes.footer}>
                 <Container maxWidth="sm">
                     <Typography variant="body1">
-                        My sticky footer can be found here.
+                        <Link
+                            color="inherit"
+                            href="https://github.com/JoHoop/react-dev-card"
+                        >
+                            View GitHub repo
+                        </Link>
                     </Typography>
                     <Copyright />
                 </Container>
