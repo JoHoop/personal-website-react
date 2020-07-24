@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, CssBaseline, Container, Link } from "@material-ui/core";
 import MailIcon from "@material-ui/icons/Mail";
