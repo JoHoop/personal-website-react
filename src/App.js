@@ -34,8 +34,8 @@ export const App = () => {
     return (
         <div className={classes.root}>
             <CssBaseline />
-            <Content classes={classes.main} />
-            <Footer classes={classes.footer} />
+            <Content mainClasses={classes.main} />
+            <Footer footerClasses={classes.footer} />
         </div>
     );
 };

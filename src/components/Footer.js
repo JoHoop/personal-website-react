@@ -7,7 +7,7 @@ import Resume from "../resume.json";
 
 export const Footer = (props) => {
     return (
-        <footer className={props.classes}>
+        <footer className={props.footerClasses}>
             <Container maxWidth="sm">
                 <Typography variant="body1">
                     <CodeIcon />
