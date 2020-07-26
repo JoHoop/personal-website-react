@@ -1,12 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Dev Card
+
+This is my [personal website](https://github.com/JoHoop)
+
+This project was built using ReactJS with [Create React App](https://github.com/facebook/create-react-app) and Material-UI.
+
+The personal information on the website is populated from a json file that follows the [JSON Resume](https://jsonresume.org/) open source standard.
+
+## Customization
+
+Feel free to fork this project and update it with your own information and style.
+
+If you improve the app in any way a pull request would be very much appreciated ;)
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
+
+to install the dependencies.
+
 ### `npm start`
 
-Runs the app in the development mode.<br />
+to run the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
@@ -19,5 +35,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
