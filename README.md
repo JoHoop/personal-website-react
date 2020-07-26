@@ -1,5 +1,3 @@
-![Avatar image](https://semantic-ui.com/images/avatar2/large/mark.png)
-
 # React Dev Folio
 
 This is a clean customizable portfolio template! [View demo](https://react-dev-card.vercel.app)
@@ -27,8 +25,7 @@ to install the dependencies.
 
 ### `npm start`
 
-to run the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+to run the app in the development mode at [http://localhost:3000](http://localhost:3000)<br />
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
