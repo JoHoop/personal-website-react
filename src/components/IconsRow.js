@@ -6,6 +6,7 @@ import Resume from "../resume.json";
 const socialItems = Resume.basics.profiles.map((socialItem) => (
     <Link
         href={socialItem.url}
+        key={socialItem.network.toLowerCase()}
         className={`icon-button ${socialItem.network.toLowerCase()}`}
         target="_blank"
         rel="noopener noreferrer"
