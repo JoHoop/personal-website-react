@@ -1,10 +1,10 @@
 import React from "react";
 import { Typography, Container } from "@material-ui/core";
-import SocialMedia from "./SocialMedia";
+import { SocialMedia } from "./SocialMedia";
 import Typical from "react-typical";
 import Resume from "../resume.json";
 
-export default function Content(props) {
+export const Content = (props) => {
     return (
         <Container component="main" className={props.classes} maxWidth="sm">
             <Typical
@@ -28,4 +28,4 @@ export default function Content(props) {
             <SocialMedia />
         </Container>
     );
-}
+};

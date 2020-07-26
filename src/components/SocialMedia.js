@@ -1,13 +1,14 @@
 import React from "react";
 import "./SocialMedia.css";
 
-export default function SocialMedia() {
+export const SocialMedia = () => {
     return (
         <div className="social-media-div">
             <a
                 href={"mailto:saadpasta70@gmail.com"}
                 className="icon-button google"
                 target="_blank"
+                rel="noopener noreferrer"
             >
                 <i className="fab fa-google"></i>
                 <span></span>
@@ -16,6 +17,7 @@ export default function SocialMedia() {
                 href={"https://www.linkedin.com/in/saadpasta/"}
                 className="icon-button linkedin"
                 target="_blank"
+                rel="noopener noreferrer"
             >
                 <i className="fab fa-linkedin-in"></i>
                 <span></span>
@@ -25,6 +27,7 @@ export default function SocialMedia() {
                 href={"https://github.com/saadpasta"}
                 className="icon-button github"
                 target="_blank"
+                rel="noopener noreferrer"
             >
                 <i className="fab fa-github"></i>
                 <span></span>
@@ -34,10 +37,11 @@ export default function SocialMedia() {
                 href={"https://gitlab.com/saadpasta"}
                 className="icon-button gitlab"
                 target="_blank"
+                rel="noopener noreferrer"
             >
                 <i className="fab fa-gitlab"></i>
                 <span></span>
             </a>
         </div>
     );
-}
+};

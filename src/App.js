@@ -2,8 +2,8 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { CssBaseline } from "@material-ui/core";
 import "./NameAnimation.css";
-import Footer from "./components/Footer";
-import Content from "./components/Content";
+import { Footer } from "./components/Footer";
+import { Content } from "./components/Content";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function App() {
+export const App = () => {
     const classes = useStyles();
 
     return (
@@ -38,4 +38,4 @@ export default function App() {
             <Footer classes={classes.footer} />
         </div>
     );
-}
+};

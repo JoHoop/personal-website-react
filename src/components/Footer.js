@@ -3,9 +3,9 @@ import "./SocialMedia.css";
 import { Typography, Container, Link } from "@material-ui/core";
 import CodeIcon from "@material-ui/icons/Code";
 import NightsStayIcon from "@material-ui/icons/NightsStay";
-import Copyright from "./Copyright";
+import { Copyright } from "./Copyright";
 
-export default function Footer(props) {
+export const Footer = (props) => {
     return (
         <footer className={props.classes}>
             <Container maxWidth="sm">
@@ -23,4 +23,4 @@ export default function Footer(props) {
             </Container>
         </footer>
     );
-}
+};
