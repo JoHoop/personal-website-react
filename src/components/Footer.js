@@ -1,9 +1,9 @@
 import React from "react";
-import "./SocialMedia.css";
 import { Typography, Container, Link } from "@material-ui/core";
 import CodeIcon from "@material-ui/icons/Code";
 import NightsStayIcon from "@material-ui/icons/NightsStay";
 import { Copyright } from "./Copyright";
+import Resume from "../resume.json";
 
 export const Footer = (props) => {
     return (
@@ -16,7 +16,7 @@ export const Footer = (props) => {
                         color="inherit"
                         href="https://github.com/JoHoop/react-dev-card"
                     >
-                        Jo Lienhoop
+                        {Resume.basics.name}
                     </Link>
                 </Typography>
                 <Copyright />

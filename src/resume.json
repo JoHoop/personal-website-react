@@ -1,6 +1,8 @@
 {
     "basics": {
         "name": "Jo Lienhoop",
+        "first": "Jo",
+        "last": "Lienhoop",
         "label": "Computer Science Student",
         "picture": "jo.png",
         "x_pictureFallback": "jo.png",
@@ -13,16 +15,28 @@
         },
         "profiles": [
             {
+                "network": "Google",
+                "username": "jolienhoop@gmail.com",
+                "url": "mailto:jolienhoop@gmail.com",
+                "x_icon": "fab fa-google"
+            },
+            {
                 "network": "LinkedIn",
                 "username": "jolienhoop",
                 "url": "https://www.linkedin.com/in/jolienhoop",
-                "x_icon": "fab fa-2x fa-linkedin"
+                "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
                 "username": "JoHoop",
                 "url": "https://github.com/JoHoop",
-                "x_icon": "fab fa-2x fa-github"
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "GitLab",
+                "username": "JoHoop",
+                "url": "https://gitlab.com/JoHoop",
+                "x_icon": "fab fa-gitlab"
             }
         ]
     },
