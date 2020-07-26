@@ -1,12 +1,24 @@
-# React Dev Card
+<div align="center">
+  <img alt="Logo" src="https://semantic-ui.com/images/avatar2/large/mark.png" width="100" />
+</div>
+<h1 align="center">
+  React Dev Folio
+</h1>
 
-This project was built using ReactJS with [Create React App](https://github.com/facebook/create-react-app) and Material-UI.
+# React Dev Folio
 
-The personal information on the website is populated from a json file that follows the [JSON Resume](https://jsonresume.org/) open source standard.
+This is a clean customizable portfolio template. [View demo](https://react-dev-card.vercel.app)
+
+* built using [React](https://reactjs.org/)
+* bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+* styled with [Material-UI](https://material-ui.com/)
+* deployed with [Vercel](vercel.com) and hosted at [react-dev-card.vercel.app](https://react-dev-card.vercel.app).
+
+The personal information on the web app is populated from a json file that follows the [JSON Resume](https://jsonresume.org/) open source standard.
 
 ## Customization
 
-Feel free to fork this project and update it with your own information and style.
+Feel free to fork this project and customize it with your own information and style.
 
 If you improve the app in any way a pull request would be very much appreciated ;)
 
