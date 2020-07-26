@@ -1,0 +1,92 @@
+{
+    "basics": {
+        "name": "Jo Lienhoop",
+        "first": "Jo",
+        "last": "Lienhoop",
+        "label": "Computer Science Student",
+        "picture": "jo.png",
+        "x_pictureFallback": "jo.png",
+        "x_title": "Hey, I'm",
+        "summary": "a computer science student based in Bremen, Germany.",
+        "location": {
+            "country": "Germany",
+            "countryCode": "GER",
+            "region": "Bremen"
+        },
+        "profiles": [
+            {
+                "network": "Google",
+                "username": "jolienhoop@gmail.com",
+                "url": "mailto:jolienhoop@gmail.com",
+                "x_icon": "fab fa-google"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "jolienhoop",
+                "url": "https://www.linkedin.com/in/jolienhoop",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "JoHoop",
+                "url": "https://github.com/JoHoop",
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "GitLab",
+                "username": "JoHoop",
+                "url": "https://gitlab.com/JoHoop",
+                "x_icon": "fab fa-gitlab"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Company",
+            "position": "Position",
+            "website": "https://www.website.com",
+            "startDate": "2020-07-20",
+            "endDate": "2020-07-26",
+            "summary": "Summary.",
+            "highlights": []
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Bremen",
+            "area": "Computer Science",
+            "studyType": "Bachelor",
+            "startDate": "2020-07-20",
+            "endDate": "2020-07-26",
+            "courses": ["Course 1", "Course 2"]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Jenkins",
+            "level": "Advanced",
+            "keywords": ["DevOps"]
+        },
+        {
+            "name": "Continuous Integration",
+            "level": "Advanced",
+            "keywords": ["DevOps"]
+        }
+    ],
+    "languages": [
+        {
+            "language": "German",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Fluent speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Dog lover",
+            "x_icon": "fa-dog"
+        }
+    ]
+}
