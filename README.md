@@ -1,7 +1,5 @@
 # React Dev Card
 
-This is my [personal website](https://github.com/JoHoop)
-
 This project was built using ReactJS with [Create React App](https://github.com/facebook/create-react-app) and Material-UI.
 
 The personal information on the website is populated from a json file that follows the [JSON Resume](https://jsonresume.org/) open source standard.
