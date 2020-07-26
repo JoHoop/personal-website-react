@@ -2,6 +2,7 @@ import React from "react";
 import { Typography, Container } from "@material-ui/core";
 import SocialMedia from "./SocialMedia";
 import Typical from "react-typical";
+import Resume from "../resume.json";
 
 export default function Content(props) {
     return (
@@ -19,7 +20,7 @@ export default function Content(props) {
             </a>
 
             <Typography variant="h2" component="h1" gutterBottom>
-                Jo Lienhoop
+                {Resume.basics.name}
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
                 a computer science student based in Bremen, Germany.
