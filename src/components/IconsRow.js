@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "@material-ui/core";
 import "./IconsRow.css";
 import Resume from "../resume.json";
 
 const socialItems = Resume.basics.profiles.map((socialItem) => (
-    <a
+    <Link
         href={socialItem.url}
         className={`icon-button ${socialItem.network.toLowerCase()}`}
         target="_blank"
@@ -11,7 +12,7 @@ const socialItems = Resume.basics.profiles.map((socialItem) => (
     >
         <i className={socialItem.x_icon}></i>
         <span></span>
-    </a>
+    </Link>
 ));
 
 export const IconsRow = () => {
