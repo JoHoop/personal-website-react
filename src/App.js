@@ -74,9 +74,6 @@ export default function App() {
                     <Copyright />
                 </Container>
             </footer>
-            {/* <div id="stars"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div> */}
         </div>
     );
 }
