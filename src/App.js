@@ -1,6 +1,5 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { CssBaseline } from "@material-ui/core";
 import "./components/NameAnimation.css";
 import { Footer } from "./components/Footer";
 import { Content } from "./components/Content";
@@ -33,7 +32,6 @@ export const App = () => {
 
     return (
         <div className={classes.root}>
-            <CssBaseline />
             <Content mainClasses={classes.main} />
             <Footer footerClasses={classes.footer} />
         </div>
