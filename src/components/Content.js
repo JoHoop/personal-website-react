@@ -12,13 +12,25 @@ import { IconsRow } from "./IconsRow";
 import Typical from "react-typical";
 import Resume from "../resume.json";
 import { RepoCard } from "./RepoCard";
+import { makeStyles, createStyles } from "@material-ui/core/styles";
+import teal from "@material-ui/core/colors/teal";
+
+const useStyles = makeStyles((theme) =>
+    createStyles({
+        teal: {
+            color: theme.palette.getContrastText(teal[500]),
+            backgroundColor: teal[500],
+        },
+    })
+);
 
 export const Content = (props) => {
+    const classes = useStyles();
     return (
         <Container component="main" className={props.mainClasses} maxWidth="sm">
             <ListItem>
                 <ListItemAvatar>
-                    <Avatar src="../../public/jo.png" alt="Avatar photo" />
+                    <Avatar className={classes.teal}>JL</Avatar>
                 </ListItemAvatar>
                 <Link
                     href="#home"
