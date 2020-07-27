@@ -1,8 +1,8 @@
 {
     "basics": {
         "name": "Jo Lienhoop",
-        "first": "Jo",
-        "last": "Lienhoop",
+        "first": "<Jo",
+        "last": "Lienhoop/>",
         "label": "Computer Science Student",
         "picture": "jo.png",
         "x_pictureFallback": "jo.png",

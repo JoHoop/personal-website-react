@@ -2,12 +2,13 @@
 
 This is a clean customizable portfolio template! [View demo](https://react-dev-card.vercel.app)
 
-* built using [React](https://reactjs.org/)
-* bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
-* styled with [Material-UI](https://material-ui.com/)
-* deployed with [Vercel](https://vercel.com) and hosted at [react-dev-card.vercel.app](https://react-dev-card.vercel.app)
+-   built using [React](https://reactjs.org/)
+-   bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+-   styled with [Material-UI](https://material-ui.com/)
+-   deployed with [Vercel](https://vercel.com) and hosted at [react-dev-card.vercel.app](https://react-dev-card.vercel.app)
 
 The personal information for this web app is populated from a json file that follows the [JSON Resume](https://jsonresume.org/) open source standard.
+Using [repo-card](https://github.com/Tarptaeya/repo-card) by [Tarptaeya](https://github.com/Tarptaeya) to showcase my repositories.
 
 ## Customization
 
