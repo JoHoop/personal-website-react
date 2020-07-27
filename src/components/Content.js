@@ -52,8 +52,8 @@ export const Content = (props) => {
             <br />
             <br />
             <br />
-            <RepoCard userSlashRepo="johoop/react-dev-card" />
-            <RepoCard userSlashRepo="johoop/studip-logo-mod" />
+            <RepoCard user="johoop" repo="react-dev-card" />
+            <RepoCard user="johoop" repo="studip-logo-mod" />
         </Container>
     );
 };
