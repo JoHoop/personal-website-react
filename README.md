@@ -1,15 +1,6 @@
-<div align="center">
-  <img alt="Logo" src="https://semantic-ui.com/images/avatar2/large/mark.png" width="100" />
-</div>
-<h1 align="center">
-  React Dev Folio
-</h1>
-<p align="center">
-  A clean, responsive, single-page portfolio template for developers.
-</p>
-<p align="center">
-  <a href="https://react-dev-card.vercel.app" target="_blank" rel="noopener noreferrer">View demo</a>,
-</p>
+# React Dev Folio
+
+This is a clean customizable portfolio template! [View demo](https://react-dev-card.vercel.app)
 
 -   built using [React](https://reactjs.org/)
 -   bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
