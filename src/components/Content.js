@@ -4,7 +4,6 @@ import {
     Container,
     Link,
     ListItem,
-    ListItemText,
     ListItemAvatar,
     Avatar,
 } from "@material-ui/core";
