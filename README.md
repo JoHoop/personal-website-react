@@ -1,6 +1,6 @@
 # React Dev Folio
 
-This is a clean customizable portfolio template! [View demo](https://react-dev-card.vercel.app)
+A clean, responsive, single-page portfolio template for developers. [View demo](https://react-dev-card.vercel.app)
 
 -   built using [React](https://reactjs.org/)
 -   bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
