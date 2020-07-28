@@ -1,3 +1,5 @@
+<img alt="Avatar" src="https://semantic-ui.com/images/avatar2/large/mark.png" width="100" />
+
 # React Dev Folio
 
 A clean, responsive, single-page portfolio template for developers. [View demo](https://react-dev-card.vercel.app)
