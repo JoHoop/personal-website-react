@@ -16,7 +16,7 @@ Using [repo-card](https://github.com/Tarptaeya/repo-card) by [Tarptaeya](https:/
 
 Feel free to fork this project and customize it with your own information and style.
 
-If you improve the app in any way a pull request would be very much appreciated ;)
+If you improve the app in any way a pull request would be very much appreciated ✌️
 
 ## Available Scripts
 
