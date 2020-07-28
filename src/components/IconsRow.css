@@ -61,7 +61,7 @@
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover {
-    background-color: black;
+    background-color: #009688;
     transition: 0.3s ease-in;
 }
 
