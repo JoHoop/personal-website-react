@@ -10,13 +10,15 @@ export const Footer = (props) => {
         <footer className={props.footerClasses}>
             <Container maxWidth="sm">
                 <Typography variant="body1">
-                    <CodeIcon />
-                    /Built at <NightsStayIcon /> by{" "}
                     <Link
                         color="inherit"
+                        underline="none"
                         href="https://github.com/JoHoop/react-dev-card"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        {Resume.basics.name}
+                        <CodeIcon />
+                        /Built at <NightsStayIcon /> by {Resume.basics.name}
                     </Link>
                 </Typography>
                 <Copyright />

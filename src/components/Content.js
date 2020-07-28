@@ -36,6 +36,8 @@ export const Content = (props) => {
                     href="#home"
                     className="logo fade-up fade-up-1"
                     underline="none"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     {Resume.basics.first}
                     <span className="logo__inner">{Resume.basics.last}</span>
