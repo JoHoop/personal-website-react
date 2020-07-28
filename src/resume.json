@@ -4,13 +4,17 @@
         "first": "<Jo",
         "last": "Lienhoop/>",
         "label": "Computer Science Student",
+        "email": "jolienhoop@gmail.com",
+        "phone": "(XXX) XXX-XXXX",
         "picture": "jo.png",
-        "x_pictureFallback": "jo.png",
         "x_title": "Hey, I'm",
         "summary": "a computer science student based in Bremen, Germany.",
         "location": {
+            "address": "XX XXXXXstreet",
+            "postalCode": "XXXXX",
+            "city": "Bremen",
             "country": "Germany",
-            "countryCode": "GER",
+            "countryCode": "DEU",
             "region": "Bremen"
         },
         "profiles": [
@@ -43,34 +47,58 @@
     "work": [
         {
             "company": "Company",
-            "position": "Position",
-            "website": "https://www.website.com",
-            "startDate": "2020-07-20",
-            "endDate": "2020-07-26",
-            "summary": "Summary.",
-            "highlights": []
+            "position": "President",
+            "website": "http://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description...",
+            "highlights": ["Started the company"]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "website": "http://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description...",
+            "highlights": ["Awarded 'Volunteer of the Month'"]
         }
     ],
     "education": [
         {
-            "institution": "University of Bremen",
-            "area": "Computer Science",
+            "institution": "University",
+            "area": "Software Development",
             "studyType": "Bachelor",
-            "startDate": "2020-07-20",
-            "endDate": "2020-07-26",
-            "courses": ["Course 1", "Course 2"]
+            "startDate": "2011-01-01",
+            "endDate": "2013-01-01",
+            "gpa": "4.0",
+            "courses": ["DB1101 - Basic SQL"]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "Description..."
         }
     ],
     "skills": [
         {
-            "name": "Jenkins",
-            "level": "Advanced",
-            "keywords": ["DevOps"]
-        },
-        {
-            "name": "Continuous Integration",
-            "level": "Advanced",
-            "keywords": ["DevOps"]
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": ["HTML", "CSS", "Javascript"]
         }
     ],
     "languages": [
@@ -81,12 +109,22 @@
         {
             "language": "English",
             "fluency": "Fluent speaker"
+        },
+        {
+            "language": "French",
+            "fluency": "Good knowledge"
         }
     ],
     "interests": [
         {
-            "name": "Dog lover",
-            "x_icon": "fa-dog"
+            "name": "Wildlife",
+            "keywords": ["Ferrets", "Unicorns"]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference..."
         }
     ]
 }
