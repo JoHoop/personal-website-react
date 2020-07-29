@@ -1,7 +1,6 @@
 import React from "react";
 import { Typography, Container } from "@material-ui/core";
 import { IconsRow } from "./IconsRow";
-
 import Resume from "../resume.json";
 import { RepoCard } from "./RepoCard";
 import { AvatarName } from "./AvatarName";
@@ -22,14 +21,6 @@ export const Content = (props) => {
             </Typography>
             <br />
             <IconsRow />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <RepoCard user="johoop" repo="react-dev-card" />
-            <RepoCard user="johoop" repo="studip-logo-mod" />
         </Container>
     );
 };
