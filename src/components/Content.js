@@ -2,7 +2,6 @@ import React from "react";
 import { Typography, Container } from "@material-ui/core";
 import { IconsRow } from "./IconsRow";
 import Resume from "../resume.json";
-import { RepoCard } from "./RepoCard";
 import { AvatarName } from "./AvatarName";
 import { TypicalName } from "./TypicalName";
 
