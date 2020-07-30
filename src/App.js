@@ -3,7 +3,7 @@ import "./components/NameAnimation.css";
 import { Footer } from "./components/Footer";
 import { NavBar } from "./components/NavBar";
 import { Content } from "./components/Content";
-import { lightTheme, darkTheme } from "./themes";
+import { LightTheme, DarkTheme } from "./components/Themes";
 import { MuiThemeProvider, makeStyles } from "@material-ui/core/styles";
 import { CssBaseline, Grid, Switch } from "@material-ui/core";
 
@@ -60,7 +60,7 @@ export const App = () => {
     }, [theme]);
 
     return (
-        <MuiThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+        <MuiThemeProvider theme={theme === "light" ? LightTheme : DarkTheme}>
             <CssBaseline />
             <div className={classes.root}>
                 <NavBar />
