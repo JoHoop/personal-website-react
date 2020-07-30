@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import "./components/NameAnimation.css";
 import { Footer } from "./components/Footer";
@@ -32,7 +32,23 @@ const useStyles = makeStyles((theme) => ({
 export const App = () => {
     const classes = useStyles();
 
-    const [theme, setTheme] = useState("dark");
+    const getInitialMode = () => {
+        const isReturningUser = "dark" in localStorage;
+        const savedMode = JSON.parse(localStorage.getItem("dark"));
+        const userPrefersDark = getPrefColorScheme();
+        if (isReturningUser) {
+            return savedMode;
+        }
+        return !!userPrefersDark;
+    };
+
+    const getPrefColorScheme = () => {
+        if (!window.matchMedia) return;
+
+        return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    };
+
+    const [theme, setTheme] = useState(getInitialMode() ? "dark" : "light");
 
     const toggleTheme = () => {
         if (theme === "light") {
@@ -41,6 +57,10 @@ export const App = () => {
             setTheme("light");
         }
     };
+
+    React.useEffect(() => {
+        localStorage.setItem("dark", JSON.stringify(theme === "dark"));
+    }, [theme]);
 
     return (
         <MuiThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
