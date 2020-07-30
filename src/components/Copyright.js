@@ -3,7 +3,7 @@ import { Typography } from "@material-ui/core";
 
 export const Copyright = () => {
     return (
-        <Typography variant="body2" color="textSecondary">
+        <Typography variant="body1" color="textSecondary">
             {"Copyright ©"} {new Date().getFullYear()}
             {"."}
         </Typography>
