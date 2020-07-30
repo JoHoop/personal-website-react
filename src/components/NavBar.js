@@ -34,25 +34,18 @@ export const NavBar = () => {
 
     return (
         <Fragment>
-            <AppBar
-                position="static"
-                color="default"
-                elevation={0}
-                className={classes.appBar}
-            >
-                <Toolbar className={classes.toolbar}>
-                    <Typography
-                        variant="h6"
-                        color="inherit"
-                        noWrap
-                        className={classes.toolbarTitle}
-                    >
-                        <Avatar className={classes.teal}>JL</Avatar>
-                    </Typography>
+            <Toolbar className={classes.toolbar}>
+                <Typography
+                    variant="h6"
+                    color="inherit"
+                    noWrap
+                    className={classes.toolbarTitle}
+                >
+                    <Avatar className={classes.teal}>JL</Avatar>
+                </Typography>
 
-                    <nav></nav>
-                </Toolbar>
-            </AppBar>
+                <nav></nav>
+            </Toolbar>
         </Fragment>
     );
 };

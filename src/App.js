@@ -3,7 +3,7 @@ import "./components/NameAnimation.css";
 import { Footer } from "./components/Footer";
 import { NavBar } from "./components/NavBar";
 import { Content } from "./components/Content";
-import { lightTheme, darkTheme } from "./theme";
+import { lightTheme, darkTheme } from "./themes";
 import { MuiThemeProvider, makeStyles } from "@material-ui/core/styles";
 import { CssBaseline, Grid, Switch } from "@material-ui/core";
 
