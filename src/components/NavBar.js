@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import {
     Link,
@@ -21,10 +21,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     appBar: {
-        backgroundColor:
-            theme.palette.type === "light"
-                ? theme.palette.grey[50]
-                : theme.palette.grey[800],
+        backgroundColor: theme.palette.type === "light" ? "#fafafa" : "#303030",
     },
     toolbar: {
         flexWrap: "wrap",
@@ -45,7 +42,7 @@ export const NavBar = () => {
     const classes = useStyles();
 
     return (
-        <React.Fragment>
+        <Fragment>
             <AppBar
                 position="static"
                 color="default"
@@ -83,6 +80,6 @@ export const NavBar = () => {
                     </nav>
                 </Toolbar>
             </AppBar>
-        </React.Fragment>
+        </Fragment>
     );
 };
