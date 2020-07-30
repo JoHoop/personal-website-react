@@ -7,7 +7,7 @@
 }
 
 .icon-button i {
-    color: white;
+    color: #fafafa;
     border-radius: 2.6rem;
     cursor: pointer;
     display: inline-block;
@@ -34,7 +34,7 @@
 }
 
 .github i {
-    background-color: #333;
+    background-color: #303030;
 }
 
 .gitlab i {
@@ -53,7 +53,6 @@
     background-color: #c13584;
 }
 
-/* Hover Transition */
 .twitter i:hover,
 .google i:hover,
 .gitlab i:hover,
@@ -65,7 +64,6 @@
     transition: 0.3s ease-in;
 }
 
-/* Media Query */
 @media (max-width: 768px) {
     .social-media-div {
         text-align: center;

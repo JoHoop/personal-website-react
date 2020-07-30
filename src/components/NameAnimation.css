@@ -14,7 +14,7 @@
 }
 .logo__inner {
     display: inline-block;
-    color: rgba(0, 0, 0, 0.87);
+    color: #303030;
     transition: padding ease 0.2s;
 }
 .html--to-animate .fade-up {

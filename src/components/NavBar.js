@@ -1,16 +1,7 @@
 import React, { Fragment } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import {
-    Link,
-    ListItem,
-    ListItemAvatar,
-    Avatar,
-    AppBar,
-    Toolbar,
-    Typography,
-} from "@material-ui/core";
+import { Avatar, AppBar, Toolbar, Typography } from "@material-ui/core";
 import teal from "@material-ui/core/colors/teal";
-import Resume from "../resume.json";
 
 const useStyles = makeStyles((theme) => ({
     "@global": {

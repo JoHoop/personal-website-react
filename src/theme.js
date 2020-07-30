@@ -11,6 +11,15 @@ export const lightTheme = createMuiTheme({
             main: teal[500],
         },
     },
+    overrides: {
+        MuiCssBaseline: {
+            "@global": {
+                body: {
+                    color: "#303030",
+                },
+            },
+        },
+    },
 });
 
 export const darkTheme = createMuiTheme({
