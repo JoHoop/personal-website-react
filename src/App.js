@@ -77,7 +77,6 @@ export const App = () => {
                     }
                 />
                 <Content mainClasses={classes.main} />
-
                 <Footer footerClasses={classes.footer} />
             </div>
         </MuiThemeProvider>
