@@ -31,5 +31,17 @@ export const darkTheme = createMuiTheme({
         secondary: {
             main: teal[500],
         },
+        background: {
+            default: "#1c1c25",
+        },
+    },
+    overrides: {
+        MuiCssBaseline: {
+            "@global": {
+                body: {
+                    backgroundColor: "#303030",
+                },
+            },
+        },
     },
 });
