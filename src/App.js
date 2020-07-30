@@ -57,7 +57,6 @@ export const App = () => {
                             name="dark mode"
                         />
                     }
-                    label="Dark mode"
                 />
                 <Content mainClasses={classes.main} />
 
