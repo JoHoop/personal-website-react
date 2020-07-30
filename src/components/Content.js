@@ -2,15 +2,12 @@ import React from "react";
 import { Typography, Container } from "@material-ui/core";
 import { IconsRow } from "./IconsRow";
 import Resume from "../resume.json";
-import { AvatarName } from "./AvatarName";
+
 import Typical from "react-typical";
 
 export const Content = (props) => {
     return (
         <Container component="main" className={props.mainClasses} maxWidth="sm">
-            <AvatarName />
-            <br />
-            <br />
             <Typography variant="h5" component="h2" gutterBottom>
                 {Resume.basics.x_title}
             </Typography>

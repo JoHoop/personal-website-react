@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import "./components/NameAnimation.css";
 import { Footer } from "./components/Footer";
+import { NavBar } from "./components/NavBar";
 import { Content } from "./components/Content";
 import { lightTheme, darkTheme } from "./theme";
 import { MuiThemeProvider } from "@material-ui/core/styles";
@@ -22,10 +23,6 @@ const useStyles = makeStyles((theme) => ({
     footer: {
         padding: theme.spacing(3, 2),
         marginTop: "auto",
-        backgroundColor:
-            theme.palette.type === "light"
-                ? theme.palette.grey[200]
-                : theme.palette.grey[800],
     },
     fab: {
         margin: theme.spacing(2),
@@ -49,6 +46,7 @@ export const App = () => {
         <MuiThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
             <CssBaseline />
             <div className={classes.root}>
+                <NavBar />
                 <FormControlLabel
                     control={
                         <Switch
