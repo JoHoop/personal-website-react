@@ -15,7 +15,7 @@ export const LightTheme = createMuiTheme({
         MuiCssBaseline: {
             "@global": {
                 body: {
-                    color: "#303030",
+                    color: "#0a192f",
                 },
             },
         },
@@ -39,7 +39,7 @@ export const DarkTheme = createMuiTheme({
         MuiCssBaseline: {
             "@global": {
                 body: {
-                    backgroundColor: "#303030",
+                    backgroundColor: "#0a192f",
                 },
             },
         },
