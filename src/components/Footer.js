@@ -9,20 +9,20 @@ export const Footer = (props) => {
         <footer className={props.footerClasses}>
             <Container maxWidth="sm">
                 <div className="centerTextMobile">
-                    <Typography variant="body1" color="textSecondary">
-                        <i className="fas fa-code" /> at{" "}
-                        <i className="fas fa-moon" /> by{" "}
-                        <Link
-                            color="inherit"
-                            underline="none"
-                            href="https://github.com/JoHoop"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
+                    <Link
+                        color="inherit"
+                        underline="none"
+                        href="https://github.com/JoHoop/react-dev-card"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Typography variant="body1" color="textSecondary">
+                            <i className="fas fa-code" /> at{" "}
+                            <i className="fas fa-moon" /> by{" "}
                             <strong>{Resume.basics.name}</strong>
-                        </Link>
-                    </Typography>
-                    <Copyright />
+                        </Typography>
+                        <Copyright />
+                    </Link>
                 </div>
             </Container>
         </footer>
