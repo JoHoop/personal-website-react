@@ -2,7 +2,7 @@ import React from "react";
 import { Link, ListItem, ListItemAvatar, Avatar } from "@material-ui/core";
 import { makeStyles, createStyles } from "@material-ui/core/styles";
 import teal from "@material-ui/core/colors/teal";
-import Resume from "../resume.json";
+import Resume from "../../resume.json";
 
 const useStyles = makeStyles((theme) =>
     createStyles({

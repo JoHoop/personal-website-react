@@ -1,13 +1,11 @@
 import React from "react";
-import "./components/NameAnimation.css";
-import { Footer } from "./components/Footer";
-import { NavBar } from "./components/NavBar";
-import { Content } from "./components/Content";
+import { Footer } from "./components/Footer/Footer";
+import { NavBar } from "./components/Header/NavBar";
+import { Content } from "./components/Content/Content";
+import { ThemeProvider } from "./components/Theme/ThemeProvider";
 
 import { makeStyles } from "@material-ui/core/styles";
 import { CssBaseline } from "@material-ui/core";
-
-import { ThemeProvider } from "./components/ThemeProvider";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -36,7 +34,6 @@ export const App = () => {
             <CssBaseline />
             <div className={classes.root}>
                 <NavBar />
-
                 <Content mainClasses={classes.main} />
                 <Footer footerClasses={classes.footer} />
             </div>

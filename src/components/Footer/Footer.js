@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Typography, Link } from "@material-ui/core";
 import { Copyright } from "./Copyright";
-import Resume from "../resume.json";
-import "./CenterTextMobile.css";
+import Resume from "../../resume.json";
+import "../Content/CenterTextMobile.css";
 
 export const Footer = (props) => {
     return (

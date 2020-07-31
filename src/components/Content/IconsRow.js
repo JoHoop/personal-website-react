@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "@material-ui/core";
 import "./IconsRow.css";
-import Resume from "../resume.json";
+import Resume from "../../resume.json";
 
 const socialItems = Resume.basics.profiles.map((socialItem) => (
     <Link
