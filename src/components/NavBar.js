@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Avatar, AppBar, Toolbar, Typography } from "@material-ui/core";
+import { Avatar, Toolbar, Typography } from "@material-ui/core";
+import { ThemeToggle } from "./ThemeToggle";
 import teal from "@material-ui/core/colors/teal";
 
 const useStyles = makeStyles((theme) => ({
@@ -44,7 +45,9 @@ export const NavBar = () => {
                     <Avatar className={classes.teal}>JL</Avatar>
                 </Typography>
 
-                <nav></nav>
+                <nav>
+                    <ThemeToggle />
+                </nav>
             </Toolbar>
         </Fragment>
     );
