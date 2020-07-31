@@ -17,7 +17,7 @@ html {
     overflow-x: hidden;
 }
 body {
-    transition: all 0.25s linear;
+    transition: all 0.5s linear;
 }
 p {
     margin-block-start: 0.5em;
