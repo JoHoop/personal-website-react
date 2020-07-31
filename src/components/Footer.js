@@ -16,7 +16,7 @@ export const Footer = (props) => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <Typography variant="body1" color="textSecondary">
+                        <Typography variant="body1">
                             <i className="fas fa-code" /> at{" "}
                             <i className="fas fa-moon" /> by{" "}
                             <strong>{Resume.basics.name}</strong>
