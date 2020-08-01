@@ -6,16 +6,6 @@ import { primary, black, white } from "../Theme/Themes";
 import { Initials } from "./GetInitials";
 
 const useStyles = makeStyles((theme) => ({
-    "@global": {
-        ul: {
-            margin: 0,
-            padding: 0,
-            listStyle: "none",
-        },
-    },
-    appBar: {
-        backgroundColor: theme.palette.type === "light" ? white : black,
-    },
     toolbar: {
         flexWrap: "wrap",
     },
