@@ -9,8 +9,8 @@ A clean, responsive, single-page portfolio template for developers. [View demo](
 -   styled with [Material-UI](https://material-ui.com/)
 -   deployed with [Vercel](https://vercel.com) and hosted at [react-dev-card.vercel.app](https://react-dev-card.vercel.app)
 
-The personal information for this web app is populated from a json file that follows the [JSON Resume](https://jsonresume.org/) open source standard.
-Using [repo-card](https://github.com/Tarptaeya/repo-card) by [Tarptaeya](https://github.com/Tarptaeya) to showcase my repositories.
+The personal information for this web app is populated from a json file that follows the [JSON Resume](https://jsonresume.org/) open source standard. Kudos to [José Coelho
+](https://github.com/jcoelho93/personal-website) for the inspiration.
 
 ## Customization
 
