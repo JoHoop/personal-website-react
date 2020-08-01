@@ -9,12 +9,12 @@
 
 .icon-button i {
     color: #fafafa;
-    border-radius: 2.6rem;
+    border-radius: 2.5rem;
     cursor: pointer;
     display: inline-block;
-    font-size: 1.3rem;
-    height: 2.6rem;
-    line-height: 2.6rem;
+    font-size: 1.25rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
     margin: 0 5px;
     position: relative;
     text-align: center;
@@ -22,7 +22,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 2.6rem;
+    width: 2.5rem;
     margin-bottom: 10px;
 }
 
