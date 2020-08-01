@@ -2,7 +2,9 @@ import React from "react";
 import { Link, ListItem, ListItemAvatar, Avatar } from "@material-ui/core";
 import { makeStyles, createStyles } from "@material-ui/core/styles";
 import teal from "@material-ui/core/colors/teal";
-import Resume from "../../resume.json";
+import { FirstName, LastName } from "./GetFirstLastName";
+import { Initials } from "./GetInitials";
+import "./NameAnimation.css";
 
 const useStyles = makeStyles((theme) =>
     createStyles({
@@ -18,7 +20,7 @@ export const AvatarName = () => {
     return (
         <ListItem>
             <ListItemAvatar>
-                <Avatar className={classes.teal}>JL</Avatar>
+                <Avatar className={classes.teal}>{Initials}</Avatar>
             </ListItemAvatar>
             <Link
                 href="#home"
@@ -27,8 +29,8 @@ export const AvatarName = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                {Resume.basics.first}
-                <span className="logo__inner">{Resume.basics.last}</span>
+                {FirstName}
+                <span className="logo__inner">{LastName}</span>
             </Link>
         </ListItem>
     );

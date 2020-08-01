@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Avatar, Toolbar, Typography } from "@material-ui/core";
 import { ThemeToggle } from "../Theme/ThemeToggle";
 import teal from "@material-ui/core/colors/teal";
-import Resume from "../../resume.json";
+import { Initials } from "./GetInitials";
 
 const useStyles = makeStyles((theme) => ({
     "@global": {
@@ -43,9 +43,7 @@ export const NavBar = () => {
                     noWrap
                     className={classes.toolbarTitle}
                 >
-                    <Avatar className={classes.teal}>
-                        {Resume.basics.initials}
-                    </Avatar>
+                    <Avatar className={classes.teal}>{Initials}</Avatar>
                 </Typography>
 
                 <nav>
