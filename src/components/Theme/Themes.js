@@ -19,6 +19,7 @@ export const LightTheme = createMuiTheme({
             "@global": {
                 body: {
                     color: black,
+                    backgroundColor: white,
                 },
             },
         },
@@ -42,6 +43,7 @@ export const DarkTheme = createMuiTheme({
         MuiCssBaseline: {
             "@global": {
                 body: {
+                    color: white,
                     backgroundColor: black,
                 },
             },
