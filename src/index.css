@@ -1,11 +1,11 @@
 ::-moz-selection {
-    background: #009688;
-    color: #fff;
+    background: #17b978;
+    color: #fafafa;
     text-shadow: none;
 }
 ::selection {
-    background: #009688;
-    color: #fff;
+    background: #17b978;
+    color: #fafafa;
     text-shadow: none;
 }
 ::-webkit-scrollbar {

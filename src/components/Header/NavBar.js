@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Avatar, Toolbar, Typography } from "@material-ui/core";
 import { ThemeToggle } from "../Theme/ThemeToggle";
-import teal from "@material-ui/core/colors/teal";
+import { primary, black, white } from "../Theme/Themes";
 import { Initials } from "./GetInitials";
 
 const useStyles = makeStyles((theme) => ({
@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     appBar: {
-        backgroundColor: theme.palette.type === "light" ? "#fafafa" : "#303030",
+        backgroundColor: theme.palette.type === "light" ? white : black,
     },
     toolbar: {
         flexWrap: "wrap",
@@ -25,9 +25,9 @@ const useStyles = makeStyles((theme) => ({
     link: {
         margin: theme.spacing(1, 1.5),
     },
-    teal: {
-        color: theme.palette.getContrastText(teal[500]),
-        backgroundColor: teal[500],
+    green: {
+        color: white,
+        backgroundColor: primary,
     },
 }));
 
@@ -43,7 +43,7 @@ export const NavBar = () => {
                     noWrap
                     className={classes.toolbarTitle}
                 >
-                    <Avatar className={classes.teal}>{Initials}</Avatar>
+                    <Avatar className={classes.green}>{Initials}</Avatar>
                 </Typography>
 
                 <nav>

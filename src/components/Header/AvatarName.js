@@ -1,16 +1,16 @@
 import React from "react";
 import { Link, ListItem, ListItemAvatar, Avatar } from "@material-ui/core";
+import { primary, black, white } from "../Theme/Themes";
 import { makeStyles, createStyles } from "@material-ui/core/styles";
-import teal from "@material-ui/core/colors/teal";
 import { FirstName, LastName } from "./GetFirstLastName";
 import { Initials } from "./GetInitials";
 import "./NameAnimation.css";
 
 const useStyles = makeStyles((theme) =>
     createStyles({
-        teal: {
-            color: theme.palette.getContrastText(teal[500]),
-            backgroundColor: teal[500],
+        green: {
+            color: white,
+            backgroundColor: primary,
         },
     })
 );
@@ -20,7 +20,7 @@ export const AvatarName = () => {
     return (
         <ListItem>
             <ListItemAvatar>
-                <Avatar className={classes.teal}>{Initials}</Avatar>
+                <Avatar className={classes.green}>{Initials}</Avatar>
             </ListItemAvatar>
             <Link
                 href="#home"
