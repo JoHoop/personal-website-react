@@ -40,6 +40,12 @@
                 "username": "JoHoop",
                 "url": "https://gitlab.com/JoHoop",
                 "x_icon": "fab fa-gitlab"
+            },
+            {
+                "network": "Telegram",
+                "username": "jolienhoop",
+                "url": "https://t.me/jolienhoop",
+                "x_icon": "fab fa-telegram-plane"
             }
         ]
     },
