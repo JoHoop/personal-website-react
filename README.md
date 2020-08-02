@@ -2,7 +2,7 @@
 
 # React Dev Folio
 
-A clean, responsive, single-page portfolio template for developers. [View demo](https://react-dev-card.vercel.app)
+A clean, responsive, single-page portfolio template for developers. View it live at [react-dev-card.vercel.app](https://react-dev-card.vercel.app)
 
 -   built using [React](https://reactjs.org/)
 -   bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
@@ -10,6 +10,7 @@ A clean, responsive, single-page portfolio template for developers. [View demo](
 -   deployed with [Vercel](https://vercel.com) and hosted at [react-dev-card.vercel.app](https://react-dev-card.vercel.app)
 
 The personal information for this web app is populated from a json file that follows the [JSON Resume](https://jsonresume.org/) open source standard. Kudos to [José Coelho](https://github.com/jcoelho93/personal-website) for the inspiration.
+Added toggle for dark mode with state synced to local storage.
 
 ## Customization
 
