@@ -9,8 +9,12 @@ A clean, responsive, single-page portfolio template for developers. View it live
 -   styled with [Material-UI](https://material-ui.com/)
 -   deployed with [Vercel](https://vercel.com) and hosted at [react-dev-card.vercel.app](https://react-dev-card.vercel.app)
 
-The personal information for this web app is populated from a json file that follows the [JSON Resume](https://jsonresume.org/) open source standard. Kudos to [José Coelho](https://github.com/jcoelho93/personal-website) for the inspiration.
-Added toggle for dark mode with state synced to local storage.
+Kudos to [José Coelho](https://github.com/jcoelho93/personal-website) and [Brittany Chiang]{https://github.com/bchiang7/bchiang7.github.io} for the inspiration.
+
+## Features
+
+-   All of the personal information is populated from a json file following the [JSON Resume](https://jsonresume.org/) standard.
+-   The toggle/switch for the dark mode syncs its state to the local storage.
 
 ## Customization
 
