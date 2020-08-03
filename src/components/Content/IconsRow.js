@@ -15,21 +15,23 @@ const PrimaryTooltip = withStyles((theme) => ({
 }))(Tooltip);
 
 const socialItems = Resume.basics.profiles.map((socialItem) => (
-    <Link
-        href={socialItem.url}
-        key={socialItem.network.toLowerCase()}
-        className={`icon-button ${socialItem.network.toLowerCase()}`}
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        <PrimaryTooltip
-            title={socialItem.network}
-            placement="top"
-            TransitionComponent={Zoom}
+    <>
+        <Link
+            href={socialItem.url}
+            key={socialItem.network.toLowerCase()}
+            className={`icon-button ${socialItem.network.toLowerCase()}`}
+            target="_blank"
+            rel="noopener noreferrer"
         >
-            <i className={socialItem.x_icon}></i>
-        </PrimaryTooltip>
-    </Link>
+            <PrimaryTooltip
+                title={socialItem.network}
+                placement="top"
+                TransitionComponent={Zoom}
+            >
+                <i className={`${socialItem.x_icon} icon-spin`}></i>
+            </PrimaryTooltip>
+        </Link>
+    </>
 ));
 
 export const IconsRow = () => {

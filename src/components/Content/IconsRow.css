@@ -58,13 +58,27 @@
     background-color: #0088cc;
 }
 
-i:hover {
-    background-color: #17b978;
-    transition: 0.3s ease-in;
-}
-
 @media (max-width: 768px) {
     .social-media-div {
         text-align: center;
     }
+}
+
+@keyframes rot {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.icon-spin:hover,
+.icon-spin:active {
+    animation-name: rot;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
 }
