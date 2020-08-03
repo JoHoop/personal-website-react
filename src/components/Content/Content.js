@@ -13,12 +13,16 @@ export const Content = (props) => {
                     {Resume.basics.x_title}
                 </Typography>
                 <Typography variant="h2" component="h1" gutterBottom>
-                    <TextDecryptOnce name={Resume.basics.name} />
-                    {" "}
+                    <p>
+                        <TextDecryptOnce name={Resume.basics.name} />
+                        {" "}
+                    </p>
                 </Typography>
                 <Typography variant="h5" component="h2" gutterBottom>
-                    {"a "}
-                    <TextDecrypt />
+                    <p>
+                        {"a "}
+                        <TextDecrypt />
+                    </p>
                 </Typography>
                 {/* <Typography variant="h5" component="h2" gutterBottom>
                     {Resume.basics.summary}
