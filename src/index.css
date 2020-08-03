@@ -15,6 +15,7 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
+    font-size: 16px;
 }
 body {
     transition: all 0.5s linear;

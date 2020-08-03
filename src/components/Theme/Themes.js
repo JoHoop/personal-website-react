@@ -15,7 +15,7 @@ export const LightTheme = createMuiTheme({
         },
     },
     typography: {
-        fontSize: 14,
+        fontSize: 16,
     },
     overrides: {
         MuiCssBaseline: {
@@ -43,7 +43,7 @@ export const DarkTheme = createMuiTheme({
         },
     },
     typography: {
-        fontSize: 14,
+        fontSize: 16,
     },
     overrides: {
         MuiCssBaseline: {
