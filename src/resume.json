@@ -6,6 +6,7 @@
         "phone": "(XXX) XXX-XXXX",
         "picture": "jl.png",
         "x_title": "Hey, I'm",
+        "jobs": ["student", "musician", "developer"],
         "summary": "based in Bremen, Germany.",
         "url": "https://react-dev-card.vercel.app/",
         "location": {
