@@ -2,7 +2,6 @@ import React from "react";
 import { Typography, Container } from "@material-ui/core";
 import { IconsRow } from "./IconsRow";
 import { TextDecrypt } from "./TextDecrypt";
-import { TextTransition } from "./TextTransition";
 import Resume from "../../resume.json";
 import "./CenterTextMobile.css";
 import Typical from "react-typical";
@@ -32,9 +31,6 @@ export const Content = (props) => {
                         ]}
                         loop={Infinity}
                     />
-                </Typography>
-                <Typography variant="h5" component="h2" gutterBottom>
-                    <TextTransition />
                 </Typography>
                 <Typography variant="h5" component="h2" gutterBottom>
                     <TextDecrypt />
