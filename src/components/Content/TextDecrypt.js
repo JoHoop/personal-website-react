@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useDencrypt } from "use-dencrypt-effect";
 
 const decryptOptions = {
@@ -66,14 +66,15 @@ const decryptOptions = {
 
 export const TextDecrypt = (props) => {
     const { result, dencrypt } = useDencrypt(decryptOptions);
+    const texts = props.texts;
 
-    React.useEffect(() => {
+    useEffect(() => {
         let i = 0;
 
         const updateText = () => {
-            dencrypt(props.texts[i]);
+            dencrypt(texts[i]);
 
-            i = i === props.texts.length - 1 ? 0 : i + 1;
+            i = i === texts.length - 1 ? 0 : i + 1;
 
             setTimeout(updateText, 4500);
         };
@@ -81,7 +82,7 @@ export const TextDecrypt = (props) => {
         const action = setTimeout(updateText, 0);
 
         return () => clearTimeout(action);
-    }, [dencrypt, props.texts]);
+    }, [dencrypt, texts]);
 
     return (
         <p>
