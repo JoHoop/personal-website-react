@@ -103,7 +103,7 @@ export const TextDecryptOnce = (props) => {
         const action = setTimeout(updateText, 0);
 
         return () => clearTimeout(action);
-    }, [dencrypt, props.name, props.text]);
+    }, [dencrypt, props.text]);
 
     return (
         <p>
