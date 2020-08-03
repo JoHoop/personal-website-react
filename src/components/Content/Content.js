@@ -32,9 +32,9 @@ export const Content = (props) => {
                         loop={Infinity}
                     />
                 </Typography>
-                <Typography variant="h5" component="h2" gutterBottom>
+                {/* <Typography variant="h5" component="h2" gutterBottom>
                     <TextDecrypt />
-                </Typography>
+                </Typography> */}
                 {/* <Typography variant="h5" component="h2" gutterBottom>
                     {Resume.basics.summary}
                 </Typography> */}
