@@ -1,7 +1,8 @@
 import React from "react";
 import { useDencrypt } from "use-dencrypt-effect";
 
-const values = ["musician", "developer", "student"];
+const values = ["student", "musician", "developer"];
+const name = "Jo Lienhoop";
 
 const decryptOptions = {
     chars: `a b c d e f g h i j k l m n o p q r s t u v w x y z ! @ # $ % & ( ) 
@@ -22,13 +23,29 @@ export const TextDecrypt = () => {
 
             i = i === values.length - 1 ? 0 : i + 1;
 
-            setTimeout(updateText, 4000);
+            setTimeout(updateText, 4500);
         };
 
-        const action = setTimeout(updateText, 1000);
+        const action = setTimeout(updateText, 0);
 
         return () => clearTimeout(action);
     }, [dencrypt]);
 
     return <>a {result}</>;
+};
+
+export const TextDecryptOnce = () => {
+    const { result, dencrypt } = useDencrypt();
+
+    React.useEffect(() => {
+        const updateText = () => {
+            dencrypt(name);
+        };
+
+        const action = setTimeout(updateText, 0);
+
+        return () => clearTimeout(action);
+    }, [dencrypt]);
+
+    return <>{result}</>;
 };
