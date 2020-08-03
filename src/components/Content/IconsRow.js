@@ -1,8 +1,9 @@
 import React from "react";
 import { Link, Tooltip } from "@material-ui/core";
-import { withStyles, makeStyles } from "@material-ui/core/styles";
+import { withStyles } from "@material-ui/core/styles";
 import "./IconsRow.css";
 import Resume from "../../resume.json";
+import Zoom from "@material-ui/core/Zoom";
 
 const PrimaryTooltip = withStyles((theme) => ({
     tooltip: {
@@ -21,7 +22,11 @@ const socialItems = Resume.basics.profiles.map((socialItem) => (
         target="_blank"
         rel="noopener noreferrer"
     >
-        <PrimaryTooltip title={socialItem.network} placement="top">
+        <PrimaryTooltip
+            title={socialItem.network}
+            placement="top"
+            TransitionComponent={Zoom}
+        >
             <i className={socialItem.x_icon}></i>
         </PrimaryTooltip>
     </Link>
