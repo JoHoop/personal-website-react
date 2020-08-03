@@ -14,6 +14,9 @@ export const LightTheme = createMuiTheme({
             main: primary,
         },
     },
+    typography: {
+        fontSize: 14,
+    },
     overrides: {
         MuiCssBaseline: {
             "@global": {
@@ -38,6 +41,9 @@ export const DarkTheme = createMuiTheme({
         background: {
             default: black,
         },
+    },
+    typography: {
+        fontSize: 14,
     },
     overrides: {
         MuiCssBaseline: {
