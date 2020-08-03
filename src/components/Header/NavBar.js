@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Avatar, Toolbar, Typography, Link } from "@material-ui/core";
 import { ThemeToggle } from "../Theme/ThemeToggle";
 import { primary, black, white } from "../Theme/Themes";
-import { Initials } from "./GetInitials";
+import { Initials } from "./GetNames";
 import Resume from "../../resume.json";
 
 const useStyles = makeStyles((theme) => ({
