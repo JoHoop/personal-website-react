@@ -4,7 +4,6 @@ import { IconsRow } from "./IconsRow";
 import { TextDecrypt, TextDecryptOnce } from "./TextDecrypt";
 import Resume from "../../resume.json";
 import "./CenterTextMobile.css";
-import Typical from "react-typical";
 
 export const Content = (props) => {
     return (
@@ -14,9 +13,11 @@ export const Content = (props) => {
                     {Resume.basics.x_title}
                 </Typography>
                 <Typography variant="h2" component="h1" gutterBottom>
-                    <TextDecryptOnce />
+                    <TextDecryptOnce name={Resume.basics.name} />
+                    {" "}
                 </Typography>
                 <Typography variant="h5" component="h2" gutterBottom>
+                    {"a "}
                     <TextDecrypt />
                 </Typography>
                 {/* <Typography variant="h5" component="h2" gutterBottom>

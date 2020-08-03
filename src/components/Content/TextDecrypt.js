@@ -31,21 +31,21 @@ export const TextDecrypt = () => {
         return () => clearTimeout(action);
     }, [dencrypt]);
 
-    return <>a {result}</>;
+    return <>{result}</>;
 };
 
-export const TextDecryptOnce = () => {
+export const TextDecryptOnce = (props) => {
     const { result, dencrypt } = useDencrypt();
 
     React.useEffect(() => {
         const updateText = () => {
-            dencrypt(name);
+            dencrypt(props.name || "");
         };
 
         const action = setTimeout(updateText, 0);
 
         return () => clearTimeout(action);
-    }, [dencrypt]);
+    }, [dencrypt, props.name]);
 
     return <>{result}</>;
 };
