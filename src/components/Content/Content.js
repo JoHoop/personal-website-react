@@ -18,9 +18,9 @@ export const Content = (props) => {
                 <Typography variant="h5" component="h2" gutterBottom>
                     <TextDecrypt texts={Resume.basics.jobs} />
                 </Typography>
-                {/* <Typography variant="h5" component="h2" gutterBottom>
+                <Typography variant="h5" component="h2" gutterBottom>
                     {Resume.basics.summary}
-                </Typography> */}
+                </Typography>
                 <br />
                 <IconsRow />
             </div>
