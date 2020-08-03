@@ -1,7 +1,17 @@
 import React from "react";
-import { Link } from "@material-ui/core";
+import { Link, Tooltip } from "@material-ui/core";
+import { withStyles, makeStyles } from "@material-ui/core/styles";
 import "./IconsRow.css";
 import Resume from "../../resume.json";
+
+const PrimaryTooltip = withStyles((theme) => ({
+    tooltip: {
+        backgroundColor: theme.palette.primary.main,
+        color: "#fafafa",
+        boxShadow: theme.shadows[1],
+        fontSize: 11,
+    },
+}))(Tooltip);
 
 const socialItems = Resume.basics.profiles.map((socialItem) => (
     <Link
@@ -11,8 +21,9 @@ const socialItems = Resume.basics.profiles.map((socialItem) => (
         target="_blank"
         rel="noopener noreferrer"
     >
-        <i className={socialItem.x_icon}></i>
-        <span></span>
+        <PrimaryTooltip title={socialItem.network} placement="top">
+            <i className={socialItem.x_icon}></i>
+        </PrimaryTooltip>
     </Link>
 ));
 

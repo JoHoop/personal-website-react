@@ -30,10 +30,6 @@
     background-color: #3b5998;
 }
 
-.telegram i {
-    background-color: #0088cc;
-}
-
 .linkedin i {
     background-color: #0e76a8;
 }
@@ -56,6 +52,10 @@
 
 .instagram i {
     background-color: #c13584;
+}
+
+.telegram i {
+    background-color: #0088cc;
 }
 
 .twitter i:hover,
