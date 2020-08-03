@@ -1,9 +1,10 @@
 import React, { Fragment } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Avatar, Toolbar, Typography } from "@material-ui/core";
+import { Avatar, Toolbar, Typography, Link } from "@material-ui/core";
 import { ThemeToggle } from "../Theme/ThemeToggle";
 import { primary, black, white } from "../Theme/Themes";
 import { Initials } from "./GetInitials";
+import Resume from "../../resume.json";
 
 const useStyles = makeStyles((theme) => ({
     toolbar: {
@@ -27,14 +28,16 @@ export const NavBar = () => {
     return (
         <Fragment>
             <Toolbar className={classes.toolbar}>
-                <Typography
+                <Link
                     variant="h6"
+                    href={Resume.basics.url}
+                    underline="none"
                     color="inherit"
                     noWrap
                     className={classes.toolbarTitle}
                 >
                     <Avatar className={classes.green}>{Initials}</Avatar>
-                </Typography>
+                </Link>
 
                 <nav>
                     <ThemeToggle />
