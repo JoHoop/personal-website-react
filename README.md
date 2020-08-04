@@ -24,7 +24,7 @@ Kudos to [José Coelho](https://github.com/jcoelho93/personal-website) and [Brit
 
 #### Coming soon
 
--   Two beautiful resume page templates generated based on the data in the resume.json file
+-   Two beautiful resume page templates generated based on the data in the resume.json file -- a modern approach of the traditional printed CV.
 
 ## Customization
 
