@@ -4,7 +4,7 @@
 
 [![Website react-dev-card.vercel.app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://react-dev-card.vercel.app)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/JoHoop/react-dev-card/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/JoHoop/react-dev-card/graphs/contributors/)
+[![GitHub contributors](https://img.shields.io/github/contributors/JoHoop/react-dev-card.svg)](https://github.com/JoHoop/react-dev-card/graphs/contributors/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/JoHoop/react-dev-card/graphs/commit-activity)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
