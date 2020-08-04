@@ -19,7 +19,7 @@ Kudos to [José Coelho](https://github.com/jcoelho93/personal-website) and [Brit
 
 ## Features
 
--   All of the personal information is populated from the resume.json file following the [JSON Resume](https://jsonresume.org/) standard.
+-   All of the personal information is populated from the resume.json file following the [JSON Resume](https://jsonresume.org/) standard, a community driven open source initiative to create a JSON based standard for resumes. Discover the official schema [here](https://jsonresume.org/schema/).
 -   The toggle/switch for the dark mode syncs its state to the local storage.
 
 #### Coming soon
