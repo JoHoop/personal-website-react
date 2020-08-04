@@ -30,6 +30,8 @@ Kudos to [José Coelho](https://github.com/jcoelho93/personal-website) and [Brit
 
 Feel free to fork this project and customize it with your own information and style.
 
+Refer to the [Material UI docs](https://material-ui.com/customization/theming/) for guidance on how to quickly customize the themes, components and colors to suit your tastes.
+
 If you improve the app in any way a pull request would be very much appreciated ✌️
 
 ## Available Scripts
