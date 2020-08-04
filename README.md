@@ -2,7 +2,15 @@
 
 # React Dev Folio
 
+[![Website react-dev-card.vercel.app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://react-dev-card.vercel.app)
+
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/JoHoop/react-dev-card/blob/master/LICENSE)
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/JoHoop/react-dev-card/graphs/commit-activity)
+
+[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/JoHoop/react-dev-card/graphs/contributors/)
 
 A clean, responsive, single-page portfolio template for developers. View it live at [react-dev-card.vercel.app](https://react-dev-card.vercel.app)
 
