@@ -58,6 +58,15 @@
     background-color: #0088cc;
 }
 
+.discord i {
+    background-color: #7289da;
+}
+
+.xing i {
+    /* background-color: #026466; */
+    background-color: #cfdc00;
+}
+
 @media (max-width: 768px) {
     .social-media-div {
         text-align: center;
@@ -77,6 +86,7 @@
 }
 
 .icon-spin:hover,
+.icon-spin:focus,
 .icon-spin:active {
     animation-name: rot;
     animation-duration: 0.8s;
