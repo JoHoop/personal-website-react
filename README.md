@@ -1,6 +1,6 @@
 <img alt="Avatar" src="https://semantic-ui.com/images/avatar2/large/mark.png" width="100" />
 
-# React Dev Folio
+# Personal Website React
 
 [![Website react-dev-card.vercel.app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://react-dev-card.vercel.app)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/JoHoop/react-dev-card/blob/master/LICENSE)
@@ -8,12 +8,12 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/JoHoop/react-dev-card/graphs/commit-activity)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-A clean, responsive, single-page portfolio template for developers. View demo at [react-dev-card.vercel.app](https://react-dev-card.vercel.app)
+A clean, responsive, single-page webapp template for developers. View demo at [personal-website-react.vercel.app](https://personal-website-react.vercel.app)
 
 -   built using [React](https://reactjs.org/)
 -   bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 -   styled with [Material-UI](https://material-ui.com/)
--   deployed with [Vercel](https://vercel.com) and hosted at [react-dev-card.vercel.app](https://react-dev-card.vercel.app)
+-   deployed with [Vercel](https://vercel.com) and hosted at [personal-website-react.vercel.app](https://personal-website-react.vercel.app)
 
 Kudos to [José Coelho](https://github.com/jcoelho93/personal-website) and [Brittany Chiang](https://github.com/bchiang7/bchiang7.github.io) for the inspiration.
 
