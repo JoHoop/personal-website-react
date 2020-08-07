@@ -57,4 +57,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-![Screenshot of web app](https://api.apiflash.com/v1/urltoimage?access_key=735a6940920248499214aa2dbd812a6a&format=png&url=https%3A%2F%2Fjohoop.vercel.app%2F)
+![Screenshot of web app](https://api.apiflash.com/v1/urltoimage?access_key=735a6940920248499214aa2dbd812a6a&delay=6&format=png&url=https%3A%2F%2Fjohoop.vercel.app%2F)
