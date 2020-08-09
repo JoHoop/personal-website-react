@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Avatar, Toolbar, Link } from "@material-ui/core";
 import { ThemeToggle } from "../Theme/ThemeToggle";
-import { primary, black, white } from "../Theme/Themes";
+import { primary, white } from "../Theme/Themes";
 import { Initials } from "./GetNames";
 import Resume from "../../resume.json";
 import "../Content/IconsRow.css";
