@@ -6,7 +6,7 @@ import { ThemeProvider } from "./components/Theme/ThemeProvider";
 
 import { makeStyles } from "@material-ui/core/styles";
 import { CssBaseline } from "@material-ui/core";
-import { logCredits } from "./components/logCredits";
+import { logCredits } from "./functions/logCredits";
 
 const useStyles = makeStyles((theme) => ({
     root: {

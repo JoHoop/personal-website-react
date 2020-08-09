@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Avatar, Toolbar, Link } from "@material-ui/core";
 import { ThemeToggle } from "../Theme/ThemeToggle";
 import { primary, white } from "../Theme/Themes";
-import { Initials } from "./GetNames";
+import { Initials } from "../../functions/getName";
 import Resume from "../../resume.json";
 import "../Content/IconsRow.css";
 
