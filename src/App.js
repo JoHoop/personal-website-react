@@ -1,45 +1,35 @@
-import React from "react";
-import { Footer } from "./components/Footer/Footer";
-import { NavBar } from "./components/Header/NavBar";
-import { Content } from "./components/Content/Content";
+import React, { Suspense, lazy } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ThemeProvider } from "./components/Theme/ThemeProvider";
-
-import { makeStyles } from "@material-ui/core/styles";
 import { CssBaseline } from "@material-ui/core";
 import { logCredits } from "./functions/logCredits";
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        display: "flex",
-        flexDirection: "column",
-        minHeight: "100vh",
-    },
-    main: {
-        marginTop: "auto",
-        marginBottom: "auto",
-    },
-    footer: {
-        padding: theme.spacing(3, 2),
-        marginTop: "auto",
-    },
-    fab: {
-        margin: theme.spacing(2),
-    },
-}));
+import { Home } from "./pages/Home";
+
+import { Loading } from "./components/Loading/Loading";
+import { LoadingError } from "./components/Loading/LoadingError";
+import { ErrorBoundary } from "./components/Loading/ErrorBoundary";
+
+const Resume = lazy(() => import("./pages/Resume"));
+const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 
 export const App = () => {
-    const classes = useStyles();
-
     logCredits();
 
     return (
         <ThemeProvider>
             <CssBaseline />
-            <div className={classes.root}>
-                <NavBar />
-                <Content mainClasses={classes.main} />
-                <Footer footerClasses={classes.footer} />
-            </div>
+            <Router>
+                <ErrorBoundary fallback={<LoadingError />}>
+                    <Suspense fallback={<Loading />}>
+                        <Switch>
+                            <Route path="/" exact component={Home} />
+                            <Route path="/resume" component={Resume} />
+                            <Route path="*" component={PageNotFound} />
+                        </Switch>
+                    </Suspense>
+                </ErrorBoundary>
+            </Router>
         </ThemeProvider>
     );
 };
