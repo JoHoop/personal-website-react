@@ -3,5 +3,8 @@
         "primary": "#17b978",
         "black": "#171c28",
         "white": "#fafafa"
+    },
+    "typography": {
+        "fontSize": "16"
     }
 }

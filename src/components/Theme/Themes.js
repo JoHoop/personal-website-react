@@ -4,6 +4,7 @@ import Settings from "../../settings.json";
 export const primary = `${Settings.colors.primary}`;
 export const black = `${Settings.colors.black}`;
 export const white = `${Settings.colors.white}`;
+export const fontSize = `${Settings.typography.fontSize}`;
 
 export const LightTheme = responsiveFontSizes(
     createMuiTheme({
@@ -17,8 +18,8 @@ export const LightTheme = responsiveFontSizes(
             },
         },
         typography: {
-            fontSize: 16,
-            htmlFontSize: 16,
+            fontSize: fontSize,
+            htmlFontSize: fontSize,
         },
         overrides: {
             MuiCssBaseline: {
@@ -48,8 +49,8 @@ export const DarkTheme = responsiveFontSizes(
             },
         },
         typography: {
-            fontSize: 16,
-            htmlFontSize: 16,
+            fontSize: fontSize,
+            htmlFontSize: fontSize,
         },
         overrides: {
             MuiCssBaseline: {
