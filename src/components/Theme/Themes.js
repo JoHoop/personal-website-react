@@ -1,4 +1,5 @@
 import { createMuiTheme, responsiveFontSizes } from "@material-ui/core";
+import Settings from "../../settings.json";
 
 export const primary = "#17b978";
 export const black = "#171c28";
