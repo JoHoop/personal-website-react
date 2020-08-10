@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ThemeProvider } from "./components/Theme/ThemeProvider";
 import { CssBaseline } from "@material-ui/core";
-import { logCredits } from "./functions/logCredits";
+import { logCredits } from "./utils/logCredits";
 
 import { Home } from "./pages/Home";
 

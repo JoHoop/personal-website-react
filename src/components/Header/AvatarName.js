@@ -2,7 +2,7 @@ import React from "react";
 import { Link, ListItem, ListItemAvatar, Avatar } from "@material-ui/core";
 import { primary, black, white } from "../Theme/Themes";
 import { makeStyles, createStyles } from "@material-ui/core/styles";
-import { FirstName, LastName, Initials } from "../../functions/getName";
+import { FirstName, LastName, Initials } from "../../utils/getName";
 import "./NameAnimation.css";
 
 const useStyles = makeStyles((theme) =>
