@@ -17,6 +17,7 @@ export const LightTheme = responsiveFontSizes(
         },
         typography: {
             fontSize: 16,
+            htmlFontSize: 16,
         },
         overrides: {
             MuiCssBaseline: {
@@ -47,6 +48,7 @@ export const DarkTheme = responsiveFontSizes(
         },
         typography: {
             fontSize: 16,
+            htmlFontSize: 16,
         },
         overrides: {
             MuiCssBaseline: {
