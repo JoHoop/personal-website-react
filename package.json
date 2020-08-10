@@ -10,8 +10,10 @@
         "@testing-library/user-event": "^7.1.2",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
+        "react-helmet": "^6.1.0",
         "react-router-dom": "^5.2.0",
         "react-scripts": "3.4.1",
+        "react-snapshot": "^1.3.0",
         "react-typical": "^0.1.3",
         "use-dencrypt-effect": "1.0.1"
     },
