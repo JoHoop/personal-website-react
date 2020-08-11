@@ -1,5 +1,5 @@
 import React from "react";
 
 export const PageNotFound = () => {
-    return <div></div>;
+    return <div>Resume...</div>;
 };
