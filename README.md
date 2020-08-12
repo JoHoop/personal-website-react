@@ -1,4 +1,4 @@
-![Screenshot of web app](https://api.apiflash.com/v1/urltoimage?access_key=735a6940920248499214aa2dbd812a6a&delay=6&format=png&height=900&scale_factor=1.1&url=johoop.vercel.app&width=1300)
+![Screenshot of web app](https://api.apiflash.com/v1/urltoimage?access_key=735a6940920248499214aa2dbd812a6a&delay=6&format=png&height=900&url=johoop.vercel.app&width=1300)
 
 # Personal Website React
 
