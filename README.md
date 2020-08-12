@@ -14,7 +14,8 @@ A clean, responsive, single-page webapp template for developers. View demo at [j
 -   bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 -   styled with [Material-UI](https://material-ui.com/)
 -   deployed with [Vercel](https://vercel.com) and hosted at [johoop.vercel.app](https://johoop.vercel.app)
-
+-   screenshot by [ApiFlash](https://apiflash.com)
+ 
 Kudos to [José Coelho](https://github.com/jcoelho93/personal-website) and [Brittany Chiang](https://github.com/bchiang7/bchiang7.github.io) for the inspiration.
 
 ## Features
