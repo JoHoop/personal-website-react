@@ -22,8 +22,8 @@
         "profiles": [
             {
                 "network": "Google",
-                "username": "jolienhoop@gmail.com",
-                "url": "mailto:jolienhoop@gmail.com",
+                "username": "hello@jolienhoop.com",
+                "url": "mailto:hello@jolienhoop.com",
                 "x_icon": "fab fa-google"
             },
             {
