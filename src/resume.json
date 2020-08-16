@@ -7,9 +7,9 @@
         "picture": "jl.png",
         "x_title": "Hey, I'm",
         "jobs": ["student", "musician", "developer"],
-        "description": "Hey, I'm Jo Lienhoop, a Computer Science student based in Bremen, Germany.",
+        "description": "Hey, I'm Jo Lienhoop, a Computer Science student based in Bremen, Germany. I love all things technical. Talk soon!",
         "summary": "based in Bremen, Germany.",
-        "keywords": "personal,website,portfolio,template,kit,jo,lienhoop,computer,science,bremen,germany,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp",
+        "keywords": "personal,website,portfolio,template,kit,jo,lienhoop,jolienhoop,computer,science,bremen,germany,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp",
         "url": "https://johoop.vercel.app/",
         "location": {
             "address": "XX XXXXXstreet",
