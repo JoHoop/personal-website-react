@@ -2,7 +2,7 @@
     "basics": {
         "name": "Jo Lienhoop",
         "label": "Computer Science student",
-        "email": "jolienhoop@gmail.com",
+        "email": "hey@jolienhoop.com",
         "phone": "(XXX) XXX-XXXX",
         "picture": "jl.png",
         "x_title": "Hey, I'm",
@@ -22,8 +22,8 @@
         "profiles": [
             {
                 "network": "Google",
-                "username": "hello@jolienhoop.com",
-                "url": "mailto:hello@jolienhoop.com",
+                "username": "hey@jolienhoop.com",
+                "url": "mailto:hey@jolienhoop.com",
                 "x_icon": "fab fa-google"
             },
             {
