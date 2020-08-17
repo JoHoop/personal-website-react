@@ -8,9 +8,19 @@
             "type": "image/x-icon"
         },
         {
+            "src": "jl192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "jl512",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
             "src": "jl.png",
-            "type": "image/png",
-            "sizes": "640x640"
+            "sizes": "640x640",
+            "type": "image/png"
         }
     ],
     "start_url": ".",
