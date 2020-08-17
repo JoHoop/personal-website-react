@@ -12,7 +12,7 @@ export const Footer = (props) => {
                     <Link
                         color="inherit"
                         underline="none"
-                        href="https://github.com/JoHoop/react-dev-card"
+                        href="https://github.com/JoHoop/personal-website-react"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
