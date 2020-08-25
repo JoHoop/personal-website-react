@@ -8,7 +8,7 @@ import { primary, white } from "../Theme/Themes";
 import { Initials } from "../../utils/getName";
 import Resume from "../../resume.json";
 import "../Content/IconsRow.css";
-import SvgLogo from "./jo.svg";
+import { ReactComponent as SvgLogo } from "./jo.svg";
 
 const useStyles = makeStyles((theme) => ({
     toolbar: {
@@ -27,7 +27,6 @@ const useStyles = makeStyles((theme) => ({
     svg: {
         width: "40px",
         height: "40px",
-        position: "relative",
     },
 }));
 
@@ -59,14 +58,10 @@ export const NavBar = () => {
                         placement="right"
                         TransitionComponent={Zoom}
                     >
-                        <Avatar className={`${classes.green}  icon-spin`}>
+                        {/* <Avatar className={`${classes.green}  icon-spin`}>
                             {Initials}
-                        </Avatar>
-                        {/* <img
-                            src={SvgLogo}
-                            class={`${classes.svg}  icon-spin`}
-                            alt="Jo Logo"
-                        /> */}
+                        </Avatar> */}
+                        <SvgLogo className={`${classes.svg}  icon-spin`} />
                     </PrimaryTooltip>
                 </Link>
 
