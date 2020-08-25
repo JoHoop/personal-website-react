@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import { Avatar, Toolbar, Link, Tooltip } from "@material-ui/core";
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles, makeStyles } from "@material-ui/core/styles";
 import { ThemeToggle } from "../Theme/ThemeToggle";
 import Zoom from "@material-ui/core/Zoom";
 import { primary, white } from "../Theme/Themes";
