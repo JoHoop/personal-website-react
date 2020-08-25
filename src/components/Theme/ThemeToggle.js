@@ -43,8 +43,6 @@ export const ThemeToggle = () => {
                     color="inherit"
                     onClick={toggleTheme}
                     aria-label={"Toggle light/dark theme"}
-                    data-ga-event-category="header"
-                    data-ga-event-action="dark"
                 >
                     {theme === "light" ? (
                         <Brightness4Icon />
