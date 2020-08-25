@@ -1,7 +1,11 @@
 {
-    "name": "react-dev-card",
-    "version": "0.1.0",
-    "private": true,
+    "name": "personal-website-react",
+    "version": "0.2.0",
+    "homepage": "https://github.com/JoHoop/",
+    "description": "This is a clean customizable portfolio template for developers.",
+    "repository": "https://github.com/JoHoop/personal-website-react",
+    "author": "Jo Lienhoop <hey@jolienhoop.com>",
+    "license": "MIT",
     "dependencies": {
         "@material-ui/core": "^4.11.0",
         "@material-ui/icons": "^4.9.1",
@@ -22,6 +26,12 @@
         "build": "react-scripts build && react-snapshot",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
+    },
+    "reactSnapshot": {
+        "exclude": [
+            "/resume"
+        ],
+        "snapshotDelay": 1000
     },
     "eslintConfig": {
         "extends": "react-app"
