@@ -18,8 +18,13 @@ const PrimaryTooltip = withStyles((theme) => ({
 const useStyles = makeStyles((theme) => ({
     iconButton: {
         position: "absolute",
-        top: theme.spacing(4),
-        right: theme.spacing(4),
+        top: theme.spacing(6),
+        right: theme.spacing(6),
+        height: "2.5rem",
+        width: "2.5rem",
+    },
+    icon: {
+        fontSize: "1.25rem",
     },
 }));
 
@@ -56,9 +61,9 @@ export const ThemeToggle = () => {
                     className={classes.iconButton}
                 >
                     {theme === "light" ? (
-                        <Brightness4Icon />
+                        <Brightness4Icon className={classes.icon} />
                     ) : (
-                        <Brightness7Icon />
+                        <Brightness7Icon className={classes.icon} />
                     )}
                 </IconButton>
             </PrimaryTooltip>

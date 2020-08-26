@@ -20,8 +20,8 @@ const useStyles = makeStyles((theme) => ({
         width: "40px",
         height: "40px",
         position: "absolute",
-        top: theme.spacing(4),
-        left: theme.spacing(4),
+        top: theme.spacing(6),
+        left: theme.spacing(6),
     },
 }));
 
