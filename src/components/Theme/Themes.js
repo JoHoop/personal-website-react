@@ -50,6 +50,15 @@ export const DarkTheme = responsiveFontSizes(
         typography: {
             fontSize: 16,
             htmlFontSize: 16,
+            h2: {
+                fontWeight: 500,
+            },
+            h5: {
+                fontWeight: 500,
+            },
+            body1: {
+                fontWeight: 500,
+            },
         },
         overrides: {
             MuiCssBaseline: {
