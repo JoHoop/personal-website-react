@@ -5,7 +5,6 @@ import Zoom from "@material-ui/core/Zoom";
 import { primary, white } from "../Theme/Themes";
 import { Initials } from "../../utils/getName";
 import Resume from "../../resume.json";
-import "../Content/IconsRow.css";
 import { ReactComponent as SvgLogoLight } from "./jo_light.svg";
 import { ReactComponent as SvgLogoDark } from "./jo_dark.svg";
 import { ThemeContext } from "../Theme/ThemeProvider";
