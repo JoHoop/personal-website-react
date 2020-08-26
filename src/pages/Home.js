@@ -5,6 +5,8 @@ import { Content } from "../components/Content/Content";
 
 import { makeStyles } from "@material-ui/core/styles";
 
+import DisplacementSphere from "../components/Background/DisplacementSphere";
+
 const useStyles = makeStyles((theme) => ({
     root: {
         display: "flex",
@@ -28,10 +30,13 @@ export const Home = () => {
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
-            <NavBar />
-            <Content mainClasses={classes.main} />
-            <Footer footerClasses={classes.footer} />
-        </div>
+        <>
+            <div className={classes.root}>
+                <NavBar />
+                <DisplacementSphere />
+                <Content mainClasses={classes.main} />
+                <Footer footerClasses={classes.footer} />
+            </div>
+        </>
     );
 };
