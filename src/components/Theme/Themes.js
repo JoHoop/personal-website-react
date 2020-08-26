@@ -38,6 +38,13 @@ export const LightTheme = responsiveFontSizes(
                     },
                 },
             },
+            MuiIconButton: {
+                root: {
+                    "&:hover": {
+                        backgroundColor: primary,
+                    },
+                },
+            },
         },
     })
 );
@@ -75,6 +82,13 @@ export const DarkTheme = responsiveFontSizes(
                     body: {
                         color: white,
                         backgroundColor: black,
+                    },
+                },
+            },
+            MuiIconButton: {
+                root: {
+                    "&:hover": {
+                        backgroundColor: primary,
                     },
                 },
             },
