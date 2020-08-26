@@ -1,5 +1,5 @@
 import React from "react";
-import { Logo } from "../components/Header/Logo";
+import { LogoLink } from "../components/Header/LogoLink";
 import { Content } from "../components/Content/Content";
 
 import { makeStyles } from "@material-ui/core/styles";
@@ -29,7 +29,7 @@ export const Home = () => {
         <>
             <div className={classes.root}>
                 <DisplacementSphere />
-                <Logo />
+                <LogoLink />
                 <ThemeToggle />
                 <Content mainClasses={classes.main} />
                 <FooterText />

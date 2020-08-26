@@ -1,68 +1,27 @@
 import React, { useContext } from "react";
-import { Avatar, Link, Tooltip } from "@material-ui/core";
-import { withStyles, makeStyles } from "@material-ui/core/styles";
-import Zoom from "@material-ui/core/Zoom";
-import { primary, white } from "../Theme/Themes";
-import { Initials } from "../../utils/getName";
-import Resume from "../../resume.json";
-import { ReactComponent as SvgLogoLight } from "./jo_light.svg";
-import { ReactComponent as SvgLogoDark } from "./jo_dark.svg";
+import { primary, white, black } from "../Theme/Themes";
 import { ThemeContext } from "../Theme/ThemeProvider";
 
-const useStyles = makeStyles((theme) => ({
-    link: {
-        margin: theme.spacing(1, 1.5),
-    },
-    green: {
-        color: white,
-        backgroundColor: primary,
-    },
-    svg: {
-        width: "40px",
-        height: "40px",
-        position: "absolute",
-        top: theme.spacing(6),
-        left: theme.spacing(6),
-    },
-}));
-
-const PrimaryTooltip = withStyles((theme) => ({
-    tooltip: {
-        backgroundColor: theme.palette.primary.main,
-        color: "#fafafa",
-        boxShadow: theme.shadows[1],
-        fontSize: 11,
-    },
-}))(Tooltip);
-
-export const Logo = () => {
-    const classes = useStyles();
+export const Logo = (props) => {
     const { theme, toggleTheme } = useContext(ThemeContext);
+    const fillColor = theme === "dark" ? white : black;
 
     return (
-        <Link
-            variant="h6"
-            href={Resume.basics.url}
-            underline="none"
-            color="inherit"
-            noWrap
-            className={classes.toolbarTitle}
-        >
-            <PrimaryTooltip
-                title={Resume.basics.name}
-                placement="right"
-                TransitionComponent={Zoom}
-            >
-                {/* <Avatar className={`${classes.green}  icon-spin`}>
-                            {Initials}
-                        </Avatar> */}
-
-                {theme === "dark" ? (
-                    <SvgLogoLight className={`${classes.svg}  icon-spin`} />
-                ) : (
-                    <SvgLogoDark className={`${classes.svg}  icon-spin`} />
-                )}
-            </PrimaryTooltip>
-        </Link>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+            <g fill={props.primary || fillColor}>
+                <path
+                    d="M300,250a50,50,0,0,1-100,.78H150a100,100,0,0,0,200,0h0V76.85a198.63,198.63,0,0,0-50-20.52Z"
+                    transform="translate(-50 -50)"
+                />
+                <path
+                    d="M400,382.13a199.13,199.13,0,0,0,50-131.35h0c0-.26,0-.52,0-.78a199.11,199.11,0,0,0-50-132.11V250c0,82.71-67.29,150-150,150S100,332.71,100,250s67.29-150,150-150V50C139.72,50,50,139.72,50,250s89.72,200,200,200a199.56,199.56,0,0,0,150-67.87Z"
+                    transform="translate(-50 -50)"
+                />
+                <path
+                    d="M100,249.22h0V250C100,249.74,100,249.48,100,249.22Z"
+                    transform="translate(-50 -50)"
+                />
+            </g>
+        </svg>
     );
 };
