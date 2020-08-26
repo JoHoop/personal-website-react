@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 function usePrefersReducedMotion() {
     if (!window.matchMedia) return false;
 
