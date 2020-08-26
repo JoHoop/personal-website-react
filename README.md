@@ -1,8 +1,8 @@
-![Screenshot of web app](https://api.apiflash.com/v1/urltoimage?access_key=735a6940920248499214aa2dbd812a6a&delay=6&format=png&height=800&url=https%3A%2F%2Fjohoop.vercel.app&width=1100)
+# Personal Website React
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fjohoop%2Fpersonal-website-react&c=1)
 
-# Personal Website React
+![Screenshot](/public/social-image.png?raw=true)
 
 [![Website johoop.vercel.app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://johoop.vercel.app)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/JoHoop/personal-website-react/blob/master/LICENSE)
@@ -18,7 +18,7 @@ A clean, responsive, single-page webapp template for developers. View demo at [j
 -   deployed with [Vercel](https://vercel.com) and hosted at [johoop.vercel.app](https://johoop.vercel.app)
 -   screenshot by [ApiFlash](https://apiflash.com)
  
-Kudos to [José Coelho](https://github.com/jcoelho93/personal-website) and [Brittany Chiang](https://github.com/bchiang7/bchiang7.github.io) for the inspiration.
+Kudos to [Cody Bennett](https://github.com/CodyJasonBennett), [José Coelho](https://github.com/jcoelho93) and [Brittany Chiang](https://github.com/bchiang7) for the inspiration.
 
 ## Features
 
