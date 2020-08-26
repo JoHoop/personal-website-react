@@ -26,6 +26,10 @@
     margin-bottom: 10px;
 }
 
+.icon {
+    font-size: 1.25rem;
+}
+
 .facebook i {
     background-color: #3b5998;
 }

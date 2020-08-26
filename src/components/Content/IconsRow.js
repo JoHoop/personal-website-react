@@ -23,7 +23,7 @@ const socialItems = Resume.basics.profiles.map((socialItem) => (
         rel="noopener noreferrer"
     >
         <PrimaryTooltip
-            title={socialItem.network}
+            title={socialItem.username}
             placement="top"
             TransitionComponent={Zoom}
         >

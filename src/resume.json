@@ -49,6 +49,12 @@
                 "username": "jolienhoop",
                 "url": "https://t.me/jolienhoop",
                 "x_icon": "fab fa-telegram-plane"
+            },
+            {
+                "network": "Discord",
+                "username": "Jo#4321",
+                "url": "https://discord.gg/6ykRy7f",
+                "x_icon": "fab fa-discord"
             }
         ]
     },
