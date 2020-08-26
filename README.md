@@ -1,5 +1,7 @@
 # Personal Website React
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fjohoop%2Fpersonal-website-react&c=1)
+
 ![Screenshot](/public/social-image.png?raw=true)
 
 [![Website johoop.vercel.app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://johoop.vercel.app)
@@ -17,8 +19,6 @@ A clean, responsive, single-page webapp template for developers. View demo at [j
 -   screenshot by [ApiFlash](https://apiflash.com)
  
 Kudos to [Cody Bennett](https://github.com/CodyJasonBennett), [José Coelho](https://github.com/jcoelho93) and [Brittany Chiang](https://github.com/bchiang7) for the inspiration.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fjohoop%2Fpersonal-website-react&c=1)
 
 ## Features
 
