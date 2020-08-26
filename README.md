@@ -1,4 +1,4 @@
-![Screenshot of web app](https://api.apiflash.com/v1/urltoimage?access_key=735a6940920248499214aa2dbd812a6a&delay=6&format=png&height=800&url=https%3A%2F%2Fjohoop.vercel.app&width=1100)
+![Screenshot](/public/social-image.png?raw=true)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fjohoop%2Fpersonal-website-react&c=1)
 
