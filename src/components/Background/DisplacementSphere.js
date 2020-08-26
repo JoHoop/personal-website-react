@@ -46,7 +46,7 @@ const DisplacementSphere = (props) => {
     const sphere = useRef();
     const tweenRef = useRef();
     const sphereSpring = useRef();
-    const prefersReducedMotion = usePrefersReducedMotion();
+    const prefersReducedMotion = Boolean(usePrefersReducedMotion() && false); //disabled until switching themes fixed
     const isInViewport = useInViewport(canvasRef);
 
     useEffect(() => {
