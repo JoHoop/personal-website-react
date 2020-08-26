@@ -9,9 +9,6 @@ import { ThemeContext } from "../Theme/ThemeProvider";
 import { Logo } from "./Logo";
 
 const useStyles = makeStyles((theme) => ({
-    link: {
-        margin: theme.spacing(1, 1.5),
-    },
     green: {
         color: white,
         backgroundColor: primary,
@@ -22,6 +19,12 @@ const useStyles = makeStyles((theme) => ({
         position: "absolute",
         top: theme.spacing(6),
         left: theme.spacing(6),
+    },
+    tooltip: {
+        backgroundColor: theme.palette.primary.main,
+        color: "#fafafa",
+        boxShadow: theme.shadows[1],
+        fontSize: 11,
     },
 }));
 
@@ -45,7 +48,6 @@ export const LogoLink = () => {
             underline="none"
             color="inherit"
             noWrap
-            className={classes.toolbarTitle}
         >
             <PrimaryTooltip
                 title={Resume.basics.name}
