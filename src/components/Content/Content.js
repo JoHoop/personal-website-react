@@ -21,8 +21,6 @@ export const Content = (props) => {
                 <Typography variant="h5" component="h2" gutterBottom>
                     {Resume.basics.summary}
                 </Typography>
-                <br />
-                <IconsRow />
             </div>
         </Container>
     );
