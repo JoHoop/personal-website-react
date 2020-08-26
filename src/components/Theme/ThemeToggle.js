@@ -15,8 +15,18 @@ const PrimaryTooltip = withStyles((theme) => ({
     },
 }))(Tooltip);
 
+const useStyles = makeStyles((theme) => ({
+    iconButton: {
+        position: "absolute",
+        top: theme.spacing(4),
+        right: theme.spacing(4),
+    },
+}));
+
 export const ThemeToggle = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
+    const classes = useStyles();
+
     return (
         <>
             {/* <Grid component="label" container alignItems="center">
@@ -43,6 +53,7 @@ export const ThemeToggle = () => {
                     color="inherit"
                     onClick={toggleTheme}
                     aria-label={"Toggle light/dark theme"}
+                    className={classes.iconButton}
                 >
                     {theme === "light" ? (
                         <Brightness4Icon />
