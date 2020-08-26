@@ -18,7 +18,7 @@ A clean, responsive, single-page webapp template for developers. View demo at [j
 -   deployed with [Vercel](https://vercel.com) and hosted at [johoop.vercel.app](https://johoop.vercel.app)
 -   screenshot by [ApiFlash](https://apiflash.com)
  
-Kudos to [José Coelho](https://github.com/jcoelho93/personal-website) and [Brittany Chiang](https://github.com/bchiang7/bchiang7.github.io) for the inspiration.
+Kudos to [Cody Bennett](https://github.com/CodyJasonBennett), [José Coelho](https://github.com/jcoelho93) and [Brittany Chiang](https://github.com/bchiang7) for the inspiration.
 
 ## Features
 
