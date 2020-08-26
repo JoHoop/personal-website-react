@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Avatar, Link, Tooltip } from "@material-ui/core";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 import Zoom from "@material-ui/core/Zoom";
@@ -6,7 +6,9 @@ import { primary, white } from "../Theme/Themes";
 import { Initials } from "../../utils/getName";
 import Resume from "../../resume.json";
 import "../Content/IconsRow.css";
-import { ReactComponent as SvgLogo } from "./jo.svg";
+import { ReactComponent as SvgLogoLight } from "./jo_light.svg";
+import { ReactComponent as SvgLogoDark } from "./jo_dark.svg";
+import { ThemeContext } from "../Theme/ThemeProvider";
 
 const useStyles = makeStyles((theme) => ({
     link: {
@@ -36,6 +38,7 @@ const PrimaryTooltip = withStyles((theme) => ({
 
 export const Logo = () => {
     const classes = useStyles();
+    const { theme, toggleTheme } = useContext(ThemeContext);
 
     return (
         <Link
@@ -54,7 +57,12 @@ export const Logo = () => {
                 {/* <Avatar className={`${classes.green}  icon-spin`}>
                             {Initials}
                         </Avatar> */}
-                <SvgLogo className={`${classes.svg}  icon-spin`} />
+
+                {theme === "dark" ? (
+                    <SvgLogoLight className={`${classes.svg}  icon-spin`} />
+                ) : (
+                    <SvgLogoDark className={`${classes.svg}  icon-spin`} />
+                )}
             </PrimaryTooltip>
         </Link>
     );
