@@ -1,18 +1,8 @@
 import React from "react";
 import { Link, Tooltip, IconButton } from "@material-ui/core";
-import { withStyles } from "@material-ui/core/styles";
 import { makeStyles } from "@material-ui/core/styles";
 import Resume from "../../resume.json";
 import Zoom from "@material-ui/core/Zoom";
-
-const PrimaryTooltip = withStyles((theme) => ({
-    tooltip: {
-        backgroundColor: theme.palette.primary.main,
-        color: "#fafafa",
-        boxShadow: theme.shadows[1],
-        fontSize: 11,
-    },
-}))(Tooltip);
 
 const useStyles = makeStyles((theme) => ({
     footerIcons: {
@@ -42,7 +32,7 @@ export const FooterIcons = () => {
             underline="none"
             color="inherit"
         >
-            <PrimaryTooltip
+            <Tooltip
                 title={socialItem.username}
                 placement="top"
                 TransitionComponent={Zoom}
@@ -54,7 +44,7 @@ export const FooterIcons = () => {
                 >
                     <i className={`${classes.icon} ${socialItem.x_icon}`}></i>
                 </IconButton>
-            </PrimaryTooltip>
+            </Tooltip>
         </Link>
     ));
 
