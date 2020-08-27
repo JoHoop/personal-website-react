@@ -40,7 +40,24 @@ export const LightTheme = responsiveFontSizes(
             },
             MuiIconButton: {
                 root: {
+                    boxShadow:
+                        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
                     "&:hover": {
+                        backgroundColor: primary,
+                    },
+                },
+            },
+            MuiFab: {
+                root: {
+                    width: "2.5rem",
+                    height: "2.5rem",
+                    fontSize: "1.25rem",
+                },
+                primary: {
+                    color: black,
+                    backgroundColor: "transparent",
+                    "&:hover": {
+                        color: black,
                         backgroundColor: primary,
                     },
                 },
@@ -87,7 +104,24 @@ export const DarkTheme = responsiveFontSizes(
             },
             MuiIconButton: {
                 root: {
+                    boxShadow:
+                        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
                     "&:hover": {
+                        backgroundColor: primary,
+                    },
+                },
+            },
+            MuiFab: {
+                root: {
+                    width: "2.5rem",
+                    height: "2.5rem",
+                    fontSize: "1.25rem",
+                },
+                primary: {
+                    color: white,
+                    backgroundColor: "transparent",
+                    "&:hover": {
+                        color: white,
                         backgroundColor: primary,
                     },
                 },
