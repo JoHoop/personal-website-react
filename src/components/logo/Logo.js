@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
-import { primary, white, black } from "../Theme/Themes";
-import { ThemeContext } from "../Theme/ThemeProvider";
+import { primary, white, black } from "../theme/Themes";
+import { ThemeContext } from "../theme/ThemeProvider";
 
 export const Logo = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);

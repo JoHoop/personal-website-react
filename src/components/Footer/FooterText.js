@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Link } from "@material-ui/core";
 import Resume from "../../resume.json";
-import { primary } from "../Theme/Themes";
+import { primary } from "../theme/Themes";
 
 const useStyles = makeStyles((theme) => ({
     footerText: {

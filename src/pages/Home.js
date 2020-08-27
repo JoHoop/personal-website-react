@@ -1,16 +1,16 @@
 import React from "react";
-import { LogoLink } from "../components/Header/LogoLink";
-import { Content } from "../components/Content/Content";
+import { LogoLink } from "../components/logo/LogoLink";
+import { Content } from "../components/content/Content";
 
 import { makeStyles } from "@material-ui/core/styles";
 
-import DisplacementSphere from "../components/Background/DisplacementSphere";
-import { ThemeToggle } from "../components/Theme/ThemeToggle";
+import DisplacementSphere from "../components/background/DisplacementSphere";
+import { ThemeToggle } from "../components/theme/ThemeToggle";
 
-import { FooterText } from "../components/Footer/FooterText";
-import { FooterIcons } from "../components/Footer/FooterIcons";
+import { FooterText } from "../components/footer/FooterText";
+import { FooterIcons } from "../components/footer/FooterIcons";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     root: {
         display: "flex",
         flexDirection: "column",
