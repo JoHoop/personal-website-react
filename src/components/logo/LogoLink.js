@@ -1,11 +1,10 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Avatar, Link, Tooltip } from "@material-ui/core";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 import Zoom from "@material-ui/core/Zoom";
 import { primary, white } from "../theme/Themes";
 import { Initials } from "../../utils/getName";
 import Resume from "../../resume.json";
-import { ThemeContext } from "../theme/ThemeProvider";
 import { Logo } from "./Logo";
 
 const useStyles = makeStyles((theme) => ({
@@ -39,7 +38,6 @@ const PrimaryTooltip = withStyles((theme) => ({
 
 export const LogoLink = () => {
     const classes = useStyles();
-    const { theme, toggleTheme } = useContext(ThemeContext);
 
     return (
         <Link

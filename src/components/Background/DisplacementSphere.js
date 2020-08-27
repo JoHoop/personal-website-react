@@ -25,7 +25,6 @@ import { reflow } from "../../utils/transition";
 import { media, rgbToThreeColor } from "../../utils/style";
 import { cleanScene, removeLights, cleanRenderer } from "../../utils/three";
 import "./DisplacementSphere.css";
-import { primary, black, white } from "../theme/Themes";
 import { ThemeContext } from "../theme/ThemeProvider";
 
 const DisplacementSphere = (props) => {
@@ -115,7 +114,7 @@ const DisplacementSphere = (props) => {
         return () => {
             removeLights(lights.current);
         };
-    }, [rgbBackground, "250 250 250", theme]);
+    }, [rgbBackground, theme]);
 
     useEffect(() => {
         const handleResize = () => {
