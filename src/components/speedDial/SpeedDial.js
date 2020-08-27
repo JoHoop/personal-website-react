@@ -32,16 +32,13 @@ export const SpeedDials = () => {
             icon={<i className={`${action.x_icon}`}></i>}
             tooltipTitle={action.network}
             onClick={handleClose}
-        >
-            <Link
-                href={action.url}
-                key={action.network.toLowerCase()}
-                target="_blank"
-                rel="noopener noreferrer"
-                underline="none"
-                color="inherit"
-            />
-        </SpeedDialAction>
+            href={action.url}
+            key={action.network.toLowerCase()}
+            target="_blank"
+            rel="noopener noreferrer"
+            underline="none"
+            color="inherit"
+        />
     ));
 
     return (
