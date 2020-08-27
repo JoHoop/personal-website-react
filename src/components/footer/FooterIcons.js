@@ -34,19 +34,28 @@ export const FooterIcons = () => {
     const classes = useStyles();
 
     const socialItems = Resume.basics.profiles.map((socialItem) => (
-        <PrimaryTooltip
-            title={socialItem.username}
-            placement="top"
-            TransitionComponent={Zoom}
+        <Link
+            href={socialItem.url}
+            key={socialItem.network.toLowerCase()}
+            target="_blank"
+            rel="noopener noreferrer"
+            underline="none"
+            color="inherit"
         >
-            <IconButton
-                color="inherit"
-                aria-label={socialItem.network}
-                className={classes.iconButton}
+            <PrimaryTooltip
+                title={socialItem.username}
+                placement="top"
+                TransitionComponent={Zoom}
             >
-                <i className={`${classes.icon} ${socialItem.x_icon}`}></i>
-            </IconButton>
-        </PrimaryTooltip>
+                <IconButton
+                    color="inherit"
+                    aria-label={socialItem.network}
+                    className={classes.iconButton}
+                >
+                    <i className={`${classes.icon} ${socialItem.x_icon}`}></i>
+                </IconButton>
+            </PrimaryTooltip>
+        </Link>
     ));
 
     return <div className={classes.footerIcons}>{socialItems}</div>;
