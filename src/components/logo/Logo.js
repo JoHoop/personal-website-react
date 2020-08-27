@@ -5,7 +5,6 @@ import { ThemeContext } from "../theme/ThemeProvider";
 export const Logo = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
     const [hovering, setHovering] = useState(false);
-    const hoverColor = hovering ? primary : "";
 
     const fillColor = theme === "dark" ? white : black;
 
@@ -15,7 +14,7 @@ export const Logo = () => {
             onMouseLeave={() => setHovering(false)}
         >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-                <g fill={hoverColor || fillColor}>
+                <g fill={hovering ? primary : fillColor}>
                     <path
                         d="M300,250a50,50,0,0,1-100,.78H150a100,100,0,0,0,200,0h0V76.85a198.63,198.63,0,0,0-50-20.52Z"
                         transform="translate(-50 -50)"
