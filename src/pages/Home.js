@@ -33,8 +33,8 @@ export const Home = () => {
                 <DisplacementSphere />
                 <LogoLink />
                 <Content mainClasses={classes.main} />
+                <ThemeToggle />
                 <Hidden smDown>
-                    <ThemeToggle />
                     <FooterIcons />
                 </Hidden>
                 <Hidden mdUp>
