@@ -2,7 +2,7 @@ export const logCredits = () => {
     const pieceEmoji = String.fromCodePoint(0x270c);
 
     const logStyle = [
-        "color: #17b978",
+        "color: #00bfbf",
         "font-size: 3em",
         "font-weight: 300",
         "padding: 100px 0px 100px 0px",
