@@ -1,6 +1,6 @@
 import React from "react";
 import { Avatar, Link, Tooltip } from "@material-ui/core";
-import { withStyles, makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import Zoom from "@material-ui/core/Zoom";
 import { primary, white } from "../theme/Themes";
 import { Initials } from "../../utils/getName";
@@ -30,15 +30,6 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const PrimaryTooltip = withStyles((theme) => ({
-    tooltip: {
-        backgroundColor: theme.palette.primary.main,
-        color: "#fafafa",
-        boxShadow: theme.shadows[1],
-        fontSize: 11,
-    },
-}))(Tooltip);
-
 export const LogoLink = () => {
     const classes = useStyles();
 
@@ -50,7 +41,7 @@ export const LogoLink = () => {
             color="inherit"
             noWrap
         >
-            <PrimaryTooltip
+            <Tooltip
                 title={Resume.basics.name}
                 placement="right"
                 TransitionComponent={Zoom}
@@ -62,7 +53,7 @@ export const LogoLink = () => {
 
                     <Logo className={classes.svg} />
                 </div>
-            </PrimaryTooltip>
+            </Tooltip>
         </Link>
     );
 };

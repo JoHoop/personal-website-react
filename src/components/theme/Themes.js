@@ -62,6 +62,28 @@ export const LightTheme = responsiveFontSizes(
                     },
                 },
             },
+            MuiSpeedDialAction: {
+                fab: {
+                    color: white,
+                    backgroundColor: "transparent",
+                    "&:hover": {
+                        color: white,
+                        backgroundColor: primary,
+                    },
+                },
+                label: {
+                    backgroundColor: primary,
+                    color: white,
+                    fontSize: 11,
+                },
+            },
+            MuiTooltip: {
+                tooltip: {
+                    backgroundColor: primary,
+                    color: white,
+                    fontSize: 11,
+                },
+            },
         },
     })
 );
@@ -124,6 +146,28 @@ export const DarkTheme = responsiveFontSizes(
                         color: white,
                         backgroundColor: primary,
                     },
+                },
+            },
+            MuiSpeedDialAction: {
+                fab: {
+                    color: white,
+                    backgroundColor: "transparent",
+                    "&:hover": {
+                        color: white,
+                        backgroundColor: primary,
+                    },
+                },
+                label: {
+                    backgroundColor: primary,
+                    color: white,
+                    fontSize: 11,
+                },
+            },
+            MuiTooltip: {
+                tooltip: {
+                    backgroundColor: primary,
+                    color: white,
+                    fontSize: 11,
                 },
             },
         },

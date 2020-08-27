@@ -18,12 +18,6 @@ const useStyles = makeStyles((theme) => ({
         top: theme.spacing(6),
         right: theme.spacing(6),
     },
-    tooltip: {
-        backgroundColor: theme.palette.primary.main,
-        color: "#fafafa",
-        boxShadow: theme.shadows[1],
-        fontSize: 11,
-    },
 }));
 
 const actions = [
@@ -56,7 +50,6 @@ export const SpeedDials = () => {
             key={action.network.toLowerCase()}
             icon={<i className={`${action.x_icon}`}></i>}
             tooltipTitle={action.network}
-            tooltipOpen
             TooltipClasses={classes.tooltip}
             onClick={handleClose}
         >
