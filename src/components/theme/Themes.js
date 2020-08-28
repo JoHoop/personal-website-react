@@ -71,11 +71,6 @@ export const LightTheme = responsiveFontSizes(
                         backgroundColor: primary,
                     },
                 },
-                label: {
-                    backgroundColor: primary,
-                    color: white,
-                    fontSize: 11,
-                },
             },
             MuiTooltip: {
                 tooltip: {
@@ -156,11 +151,6 @@ export const DarkTheme = responsiveFontSizes(
                         color: white,
                         backgroundColor: primary,
                     },
-                },
-                label: {
-                    backgroundColor: primary,
-                    color: white,
-                    fontSize: 11,
                 },
             },
             MuiTooltip: {
