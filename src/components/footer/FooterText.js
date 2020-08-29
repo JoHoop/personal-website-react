@@ -1,8 +1,9 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, Link } from "@material-ui/core";
+import { Typography, Link, Tooltip } from "@material-ui/core";
 import Resume from "../../resume.json";
 import { primary } from "../theme/Themes";
+import Zoom from "@material-ui/core/Zoom";
 
 const useStyles = makeStyles((theme) => ({
     footerText: {
@@ -19,18 +20,24 @@ export const FooterText = () => {
     const classes = useStyles();
 
     return (
-        <Link
-            color="inherit"
-            underline="none"
-            href="https://github.com/JoHoop/personal-website-react"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classes.footerText}
+        <Tooltip
+            title={"GitHub repo"}
+            placement="top"
+            TransitionComponent={Zoom}
         >
-            <Typography variant="body1">
-                <i className="fas fa-code" /> at <i className="fas fa-moon" />{" "}
-                by {Resume.basics.name}
-            </Typography>
-        </Link>
+            <Link
+                color="inherit"
+                underline="none"
+                href="https://github.com/JoHoop/personal-website-react"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={classes.footerText}
+            >
+                <Typography variant="body1">
+                    <i className="fas fa-code" /> at{" "}
+                    <i className="fas fa-moon" /> by {Resume.basics.name}
+                </Typography>
+            </Link>
+        </Tooltip>
     );
 };
