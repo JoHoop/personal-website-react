@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
         "&:hover": {
             color: primary,
         },
+        transition: "all 0.5s ease",
     },
 }));
 
