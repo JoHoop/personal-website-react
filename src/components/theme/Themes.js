@@ -47,6 +47,7 @@ export const LightTheme = responsiveFontSizes(
                     "&:hover": {
                         backgroundColor: primary,
                     },
+                    transition: "all 0.5s ease",
                 },
             },
             MuiFab: {
@@ -62,6 +63,7 @@ export const LightTheme = responsiveFontSizes(
                         color: black,
                         backgroundColor: primary,
                     },
+                    transition: "all 0.5s ease",
                 },
             },
             MuiSpeedDialAction: {
@@ -72,6 +74,7 @@ export const LightTheme = responsiveFontSizes(
                         color: white,
                         backgroundColor: primary,
                     },
+                    transition: "all 0.5s ease",
                     margin: "0px",
                     marginBottom: "16px",
                 },
@@ -132,6 +135,7 @@ export const DarkTheme = responsiveFontSizes(
                     "&:hover": {
                         backgroundColor: primary,
                     },
+                    transition: "all 0.5s ease",
                 },
             },
             MuiFab: {
@@ -147,6 +151,7 @@ export const DarkTheme = responsiveFontSizes(
                         color: white,
                         backgroundColor: primary,
                     },
+                    transition: "all 0.5s ease",
                 },
             },
             MuiSpeedDialAction: {
@@ -157,6 +162,7 @@ export const DarkTheme = responsiveFontSizes(
                         color: white,
                         backgroundColor: primary,
                     },
+                    transition: "all 0.5s ease",
                     margin: "0px",
                     marginBottom: "16px",
                 },
