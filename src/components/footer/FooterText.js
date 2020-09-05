@@ -34,8 +34,8 @@ export const FooterText = () => {
                 className={classes.footerText}
             >
                 <Typography variant="body1">
-                    <i className="fas fa-code" /> at{" "}
-                    <i className="fas fa-moon" /> by {Resume.basics.name}
+                    <i className="fas fa-code fa-sm" /> at{" "}
+                    <i className="fas fa-moon fa-sm" /> by {Resume.basics.name}
                 </Typography>
             </Link>
         </Tooltip>
