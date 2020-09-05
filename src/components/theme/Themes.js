@@ -107,9 +107,11 @@ export const DarkTheme = responsiveFontSizes(
             },
             h5: {
                 fontWeight: 500,
+                fontFamily: "Roboto Mono",
             },
             body1: {
                 fontWeight: 500,
+                fontFamily: "Roboto Mono",
             },
         },
         overrides: {
@@ -159,6 +161,7 @@ export const DarkTheme = responsiveFontSizes(
             },
             MuiTooltip: {
                 tooltip: {
+                    fontFamily: "Roboto Mono",
                     backgroundColor: primary,
                     color: white,
                     fontSize: 11,
