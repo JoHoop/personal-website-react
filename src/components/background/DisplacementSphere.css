@@ -9,7 +9,7 @@
     z-index: -1;
     transition-property: opacity;
     transition-duration: 3s;
-    transition-timing-function: var(--bezierFastoutSlowin);
+    transition-timing-function: "cubic-bezier(0.4, 0.0, 0.2, 1)";
 }
 
 .displacement-sphere--entering,
