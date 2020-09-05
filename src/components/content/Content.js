@@ -9,11 +9,11 @@ export const Content = (props) => {
         <Container component="main" className={props.mainClasses} maxWidth="sm">
             <Typography variant="h2" component="h1" gutterBottom>
                 <TextDecryptOnce
-                    text={`${Resume.basics.x_title} ${FirstName}!`}
+                    text={`${Resume.basics.x_title} ${FirstName}`}
                 />
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
-                <TextDecrypt texts={Resume.basics.jobs} />
+                <TextDecryptOnce text={`a ${Resume.basics.job}`} />
                 <TextDecryptOnce
                     text={`from ${Resume.basics.location.country}`}
                 />
