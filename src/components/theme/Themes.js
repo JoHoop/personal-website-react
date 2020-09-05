@@ -24,11 +24,11 @@ export const LightTheme = responsiveFontSizes(
             },
             h5: {
                 fontWeight: 500,
-                fontFamily: "Roboto Mono",
+                fontFamily: "Roboto Mono, monospace",
             },
             body1: {
                 fontWeight: 500,
-                fontFamily: "Roboto Mono",
+                fontFamily: "Roboto Mono, monospace",
             },
         },
         overrides: {
@@ -109,11 +109,11 @@ export const DarkTheme = responsiveFontSizes(
             },
             h5: {
                 fontWeight: 500,
-                fontFamily: "Roboto Mono",
+                fontFamily: "Roboto Mono, monospace",
             },
             body1: {
                 fontWeight: 500,
-                fontFamily: "Roboto Mono",
+                fontFamily: "Roboto Mono, monospace",
             },
         },
         overrides: {
@@ -163,7 +163,7 @@ export const DarkTheme = responsiveFontSizes(
             },
             MuiTooltip: {
                 tooltip: {
-                    fontFamily: "Roboto Mono",
+                    fontFamily: "Roboto Mono, monospace",
                     backgroundColor: primary,
                     color: white,
                     fontSize: 11,
