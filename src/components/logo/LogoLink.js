@@ -26,22 +26,21 @@ export const LogoLink = () => {
     const classes = useStyles();
 
     return (
-        <Link
-            variant="h6"
-            href={Resume.basics.url}
-            underline="none"
-            color="inherit"
-            noWrap
+        <Tooltip
+            title={Resume.basics.name}
+            placement="right"
+            TransitionComponent={Zoom}
         >
-            <Tooltip
-                title={Resume.basics.name}
-                placement="right"
-                TransitionComponent={Zoom}
+            <Link
+                variant="h6"
+                href={Resume.basics.url}
+                underline="none"
+                color="inherit"
+                noWrap
+                className={classes.svg}
             >
-                <div className={classes.svg}>
-                    <Logo className={classes.svg} />
-                </div>
-            </Tooltip>
-        </Link>
+                <Logo />
+            </Link>
+        </Tooltip>
     );
 };
