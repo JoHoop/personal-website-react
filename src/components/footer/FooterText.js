@@ -1,9 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, Link, Tooltip } from "@material-ui/core";
+import { Typography, Link, Tooltip, Zoom } from "@material-ui/core";
 import Resume from "../../resume.json";
 import { primary } from "../theme/Themes";
-import Zoom from "@material-ui/core/Zoom";
 
 const useStyles = makeStyles((theme) => ({
     footerText: {

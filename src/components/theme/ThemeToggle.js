@@ -2,8 +2,7 @@ import React, { useContext } from "react";
 import { ThemeContext } from "./ThemeProvider";
 import { Tooltip, IconButton, Zoom } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import Brightness4Icon from "@material-ui/icons/Brightness4";
-import Brightness7Icon from "@material-ui/icons/Brightness7";
+import { Brightness4, Brightness7 } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
     iconButton: {
@@ -35,9 +34,9 @@ export const ThemeToggle = () => {
                 className={classes.iconButton}
             >
                 {theme === "light" ? (
-                    <Brightness4Icon className={classes.icon} />
+                    <Brightness4 className={classes.icon} />
                 ) : (
-                    <Brightness7Icon className={classes.icon} />
+                    <Brightness7 className={classes.icon} />
                 )}
             </IconButton>
         </Tooltip>
