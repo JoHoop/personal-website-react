@@ -13,7 +13,7 @@ export const Content = (props) => {
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
                 <TextDecrypt text={`a ${Resume.basics.job}`} />
-                <TextDecrypt text={`from ${Resume.basics.location.country}.`} />
+                <TextDecrypt text={`from ${Resume.basics.location.country}`} />
             </Typography>
         </Container>
     );
