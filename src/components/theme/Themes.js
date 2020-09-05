@@ -70,6 +70,8 @@ export const LightTheme = responsiveFontSizes(
                         color: white,
                         backgroundColor: primary,
                     },
+                    margin: "0px",
+                    marginBottom: "16px",
                 },
             },
             MuiTooltip: {
@@ -151,6 +153,8 @@ export const DarkTheme = responsiveFontSizes(
                         color: white,
                         backgroundColor: primary,
                     },
+                    margin: "0px",
+                    marginBottom: "16px",
                 },
             },
             MuiTooltip: {

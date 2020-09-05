@@ -8,7 +8,7 @@ import Brightness7Icon from "@material-ui/icons/Brightness7";
 const useStyles = makeStyles((theme) => ({
     iconButton: {
         position: "absolute",
-        top: theme.spacing(6),
+        bottom: theme.spacing(6),
         right: theme.spacing(6),
         height: "2.5rem",
         width: "2.5rem",

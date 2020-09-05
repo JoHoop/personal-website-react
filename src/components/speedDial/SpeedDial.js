@@ -9,7 +9,7 @@ import Resume from "../../resume.json";
 const useStyles = makeStyles((theme) => ({
     speedDial: {
         position: "absolute",
-        bottom: theme.spacing(6),
+        top: theme.spacing(6),
         right: theme.spacing(6),
     },
 }));
@@ -52,7 +52,7 @@ export const SpeedDials = () => {
                 onClose={handleClose}
                 onOpen={handleOpen}
                 open={open}
-                direction="up"
+                direction="down"
             >
                 {actionIcons}
             </SpeedDial>

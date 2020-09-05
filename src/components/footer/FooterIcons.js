@@ -7,13 +7,14 @@ import Zoom from "@material-ui/core/Zoom";
 const useStyles = makeStyles((theme) => ({
     footerIcons: {
         position: "absolute",
-        bottom: theme.spacing(6),
+        top: theme.spacing(6),
         right: theme.spacing(6),
     },
     iconButton: {
         height: "2.5rem",
         width: "2.5rem",
-        margin: theme.spacing(0.7),
+        display: "block",
+        marginBottom: theme.spacing(2),
     },
     icon: {
         fontSize: "1.25rem",
@@ -34,7 +35,7 @@ export const FooterIcons = () => {
         >
             <Tooltip
                 title={socialItem.username}
-                placement="top"
+                placement="left"
                 TransitionComponent={Zoom}
             >
                 <IconButton
