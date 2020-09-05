@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Tooltip, IconButton, Zoom } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import Resume from "../../resume.json";
+import Resume from "../../settings/resume.json";
 
 const useStyles = makeStyles((theme) => ({
     footerIcons: {

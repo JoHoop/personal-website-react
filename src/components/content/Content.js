@@ -1,8 +1,9 @@
 import React from "react";
 import { Typography, Container } from "@material-ui/core";
 import { TextDecrypt } from "./TextDecrypt";
-import Resume from "../../resume.json";
+import Resume from "../../settings/resume.json";
 import { FirstName } from "../../utils/getName";
+import { Today } from "./Today";
 
 export const Content = (props) => {
     return (
@@ -12,7 +13,7 @@ export const Content = (props) => {
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
                 <TextDecrypt text={`a ${Resume.basics.job}`} />
-                <TextDecrypt text={`from ${Resume.basics.location.country}`} />
+                <TextDecrypt text={`from ${Resume.basics.location.country}.`} />
             </Typography>
         </Container>
     );

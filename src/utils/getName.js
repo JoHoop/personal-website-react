@@ -1,4 +1,4 @@
-import Resume from "../resume.json";
+import Resume from "../settings/resume.json";
 
 const names = Resume.basics.name.split(" ");
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
-import Resume from "./resume.json";
-import Settings from "./settings.json";
+import Resume from "../settings/resume.json";
+import Settings from "../settings/settings.json";
 
 export const HelmetMeta = () => {
     return (

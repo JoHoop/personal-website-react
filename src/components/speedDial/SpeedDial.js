@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { SpeedDial, SpeedDialIcon, SpeedDialAction } from "@material-ui/lab";
-import Resume from "../../resume.json";
+import Resume from "../../settings/resume.json";
 
 const useStyles = makeStyles((theme) => ({
     speedDial: {
