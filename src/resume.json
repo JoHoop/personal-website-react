@@ -34,13 +34,13 @@
             },
             {
                 "network": "GitHub",
-                "username": "JoHoop",
+                "username": "johoop",
                 "url": "https://github.com/JoHoop",
                 "x_icon": "fab fa-github"
             },
             {
                 "network": "GitLab",
-                "username": "JoHoop",
+                "username": "johoop",
                 "url": "https://gitlab.com/JoHoop",
                 "x_icon": "fab fa-gitlab"
             },
@@ -52,7 +52,7 @@
             },
             {
                 "network": "Discord",
-                "username": "Jo#4321",
+                "username": "jo#4321",
                 "url": "https://discord.gg/6ykRy7f",
                 "x_icon": "fab fa-discord"
             }
