@@ -69,7 +69,7 @@ export const LightTheme = responsiveFontSizes(
                         color: black,
                         backgroundColor: primary,
                     },
-                    transition: "all 0.5s ease",
+                    transition: "all 0.5s ease !important",
                 },
             },
             MuiSpeedDialAction: {
@@ -160,7 +160,7 @@ export const DarkTheme = responsiveFontSizes(
                         color: white,
                         backgroundColor: primary,
                     },
-                    transition: "all 0.5s ease",
+                    transition: "all 0.5s ease !important",
                 },
             },
             MuiSpeedDialAction: {
