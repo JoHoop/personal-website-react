@@ -1,9 +1,8 @@
 import React from "react";
-import { Avatar, Link, Tooltip } from "@material-ui/core";
+import { Link, Tooltip } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Zoom from "@material-ui/core/Zoom";
 import { primary, white } from "../theme/Themes";
-import { Initials } from "../../utils/getName";
 import Resume from "../../resume.json";
 import { Logo } from "./Logo";
 
@@ -41,10 +40,6 @@ export const LogoLink = () => {
                 TransitionComponent={Zoom}
             >
                 <div className={classes.svg}>
-                    {/* <Avatar className={`${classes.green}  icon-spin`}>
-                            {Initials}
-                        </Avatar> */}
-
                     <Logo className={classes.svg} />
                 </div>
             </Tooltip>

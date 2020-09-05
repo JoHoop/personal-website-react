@@ -66,36 +66,8 @@ const decryptOptions = {
 
 export const TextDecrypt = (props) => {
     const { result, dencrypt } = useDencrypt(decryptOptions);
-    const texts = props.texts;
 
     useEffect(() => {
-        let i = 0;
-
-        const updateText = () => {
-            dencrypt(texts[i]);
-
-            i = i === texts.length - 1 ? 0 : i + 1;
-
-            setTimeout(updateText, 4500);
-        };
-
-        const action = setTimeout(updateText, 0);
-
-        return () => clearTimeout(action);
-    }, [dencrypt, texts]);
-
-    return (
-        <p>
-            {"a "}
-            {result}
-        </p>
-    );
-};
-
-export const TextDecryptOnce = (props) => {
-    const { result, dencrypt } = useDencrypt(decryptOptions);
-
-    React.useEffect(() => {
         const updateText = () => {
             dencrypt(props.text || "");
         };

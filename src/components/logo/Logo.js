@@ -3,7 +3,7 @@ import { primary, white, black } from "../theme/Themes";
 import { ThemeContext } from "../theme/ThemeProvider";
 
 export const Logo = () => {
-    const { theme, toggleTheme } = useContext(ThemeContext);
+    const { theme } = useContext(ThemeContext);
     const [hovering, setHovering] = useState(false);
 
     const fillColor = theme === "dark" ? white : black;

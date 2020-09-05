@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Link, Backdrop } from "@material-ui/core";
+import { Backdrop } from "@material-ui/core";
 import SpeedDial from "@material-ui/lab/SpeedDial";
 import SpeedDialIcon from "@material-ui/lab/SpeedDialIcon";
 import SpeedDialAction from "@material-ui/lab/SpeedDialAction";
@@ -33,7 +33,6 @@ export const SpeedDials = () => {
             tooltipTitle={action.network}
             onClick={handleClose}
             href={action.url}
-            key={action.network.toLowerCase()}
             target="_blank"
             rel="noopener noreferrer"
             underline="none"

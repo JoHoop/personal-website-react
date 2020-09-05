@@ -28,7 +28,7 @@ import "./DisplacementSphere.css";
 import { ThemeContext } from "../theme/ThemeProvider";
 
 const DisplacementSphere = (props) => {
-    const { theme, toggleTheme } = useContext(ThemeContext);
+    const { theme } = useContext(ThemeContext);
     const rgbBackground = theme === "light" ? "250 250 250" : "17 17 17";
     const width = useRef(window.innerWidth);
     const height = useRef(window.innerHeight);
