@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     iconButton: {
         height: "2.5rem",
         width: "2.5rem",
-        margin: theme.spacing(0.5),
+        margin: theme.spacing(0.7),
     },
     icon: {
         fontSize: "1.25rem",
