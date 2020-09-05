@@ -24,9 +24,11 @@ export const LightTheme = responsiveFontSizes(
             },
             h5: {
                 fontWeight: 500,
+                fontFamily: "Roboto Mono",
             },
             body1: {
                 fontWeight: 500,
+                fontFamily: "Roboto Mono",
             },
         },
         overrides: {
