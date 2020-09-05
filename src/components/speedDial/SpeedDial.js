@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Backdrop } from "@material-ui/core";
 import SpeedDial from "@material-ui/lab/SpeedDial";
 import SpeedDialIcon from "@material-ui/lab/SpeedDialIcon";
 import SpeedDialAction from "@material-ui/lab/SpeedDialAction";
 import Resume from "../../resume.json";
+import { white, black } from "../theme/Themes";
 
 const useStyles = makeStyles((theme) => ({
     speedDial: {
@@ -12,10 +13,14 @@ const useStyles = makeStyles((theme) => ({
         top: theme.spacing(6),
         right: theme.spacing(6),
     },
+    iconColor: {
+        color: theme.palette.type === "dark" ? white : black,
+    },
 }));
 
 export const SpeedDials = () => {
     const classes = useStyles();
+
     const [open, setOpen] = React.useState(false);
 
     const handleClose = () => {
@@ -29,7 +34,7 @@ export const SpeedDials = () => {
     const actionIcons = Resume.basics.profiles.map((action) => (
         <SpeedDialAction
             key={action.network.toLowerCase()}
-            icon={<i className={`${action.x_icon}`}></i>}
+            icon={<i className={`${action.x_icon} ${classes.iconColor}`}></i>}
             tooltipTitle={action.network}
             onClick={handleClose}
             href={action.url}
@@ -42,7 +47,6 @@ export const SpeedDials = () => {
 
     return (
         <>
-            <Backdrop open={open} />
             <SpeedDial
                 ariaLabel="SpeedDial"
                 className={classes.speedDial}
