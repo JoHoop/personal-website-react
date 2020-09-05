@@ -2,7 +2,6 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { SpeedDial, SpeedDialIcon, SpeedDialAction } from "@material-ui/lab";
 import Resume from "../../resume.json";
-import { white, black } from "../theme/Themes";
 
 const useStyles = makeStyles((theme) => ({
     speedDial: {
@@ -11,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
         right: theme.spacing(6),
     },
     iconColor: {
-        color: theme.palette.type === "dark" ? white : black,
+        color: theme.palette.foreground.default,
     },
 }));
 

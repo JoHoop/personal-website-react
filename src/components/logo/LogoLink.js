@@ -1,15 +1,10 @@
 import React from "react";
 import { Link, Tooltip, Zoom } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { primary, white } from "../theme/Themes";
 import Resume from "../../resume.json";
 import { Logo } from "./Logo";
 
 const useStyles = makeStyles((theme) => ({
-    green: {
-        color: white,
-        backgroundColor: primary,
-    },
     svg: {
         width: "40px",
         height: "40px",

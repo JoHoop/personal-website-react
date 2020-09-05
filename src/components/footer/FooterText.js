@@ -2,7 +2,6 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Link, Tooltip, Zoom } from "@material-ui/core";
 import Resume from "../../resume.json";
-import { primary } from "../theme/Themes";
 
 const useStyles = makeStyles((theme) => ({
     footerText: {
@@ -10,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
         bottom: theme.spacing(6),
         left: theme.spacing(6),
         "&:hover": {
-            color: primary,
+            color: theme.palette.primary.main,
         },
         transition: "all 0.5s ease",
     },

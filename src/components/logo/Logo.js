@@ -1,12 +1,11 @@
 import React from "react";
-import { primary, white, black } from "../theme/Themes";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
     svgHover: {
-        fill: theme.palette.type === "dark" ? white : black,
+        fill: theme.palette.foreground.default,
         "&:hover": {
-            fill: primary,
+            fill: theme.palette.primary.main,
         },
         transition: "all 0.5s ease",
     },

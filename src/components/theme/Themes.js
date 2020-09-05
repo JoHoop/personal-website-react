@@ -15,6 +15,12 @@ export const LightTheme = responsiveFontSizes(
             secondary: {
                 main: primary,
             },
+            background: {
+                default: white,
+            },
+            foreground: {
+                default: black,
+            },
         },
         typography: {
             fontSize: 16,
@@ -102,6 +108,9 @@ export const DarkTheme = responsiveFontSizes(
             },
             background: {
                 default: black,
+            },
+            foreground: {
+                default: white,
             },
         },
         typography: {
