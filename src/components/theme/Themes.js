@@ -87,6 +87,7 @@ export const LightTheme = responsiveFontSizes(
             },
             MuiTooltip: {
                 tooltip: {
+                    fontFamily: "Roboto Mono, monospace",
                     backgroundColor: primary,
                     color: white,
                     fontSize: 11,
