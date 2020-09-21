@@ -89,7 +89,7 @@ export const LightTheme = responsiveFontSizes(
                 tooltip: {
                     fontFamily: "Roboto Mono, monospace",
                     backgroundColor: primary,
-                    color: white,
+                    color: black,
                     fontSize: 11,
                 },
             },
