@@ -1,7 +1,5 @@
 # Personal Website React
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fjohoop%2Fpersonal-website-react&c=1)
-
 [![Screenshot](/public/social-image.png?raw=true)](https://jolienhoop.com)
 
 [![Website jolienhoop.com](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://jolienhoop.com)
