@@ -40,21 +40,9 @@
             },
             {
                 "network": "GitLab",
-                "username": "johoop",
-                "url": "https://gitlab.com/JoHoop",
+                "username": "joli",
+                "url": "https://gitlab.informatik.uni-bremen.de/joli",
                 "x_icon": "fab fa-gitlab"
-            },
-            {
-                "network": "Telegram",
-                "username": "jolienhoop",
-                "url": "https://t.me/jolienhoop",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
-                "network": "Discord",
-                "username": "Jo#4467",
-                "url": "https://discord.com",
-                "x_icon": "fab fa-discord"
             }
         ]
     },
