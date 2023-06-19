@@ -1,71 +1,155 @@
 {
     "basics": {
-        "name": "Jo Lienhoop",
-        "label": "Computer Science student",
-        "email": "hey@jolienhoop.com",
-        "phone": "(XXX) XXX-XXXX",
+        "name": "Eren GÜN",
+        "label": "Full-Stack Application Developer",
+        "email": "hi@erengun.dev",
+        "phone": "(543) 170-4942",
         "picture": "jl.png",
         "x_title": "Hey, I'm",
-        "job": "CS student",
-        "description": "Hey, I'm Jo Lienhoop, a Computer Science student based in Bremen, Germany. I love all things technical. Talk soon!",
-        "summary": "based in Bremen, Germany.",
-        "keywords": "personal,website,portfolio,template,kit,jo,lienhoop,jolienhoop,computer,science,bremen,germany,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp",
-        "url": "https://jolienhoop.com",
+        "job": "Full-Stack Application Developer",
+        "description": "Hi, I'm Eren, a developer studying at Ecole 42. I'm a quick learner, passionate about science, technology, and various development languages. Currently, I'm focusing on Flutter, a cost-effective and efficient alternative for mobile app development. With almost a year of experience in Flutter and a few months in Node.js",
+        "summary": "based in Istanbul, Turkiye",
+        "keywords": "personal,website,portfolio,jolienhoop,computer,science,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,Eren,GÜN,Eren,GUN,Flutter,developer,Dart,programming,Mobile,app,development,Web,development,Ecole,42,Node.js,Cross-platform,development,Flutter,mobile,apps,Dart,web,apps,Flutter,UI,framework,JavascriptCore,QuickJS,Flutter,SDK,Dart,packages,Flutter,eren,gun",
+        "url": "https://erengun.dev",
         "location": {
             "address": "XX XXXXXstreet",
             "postalCode": "XXXXX",
-            "city": "Bremen",
-            "country": "Germany",
-            "countryCode": "DEU",
-            "region": "Bremen"
+            "city": "Istanbul",
+            "country": "Turkiye",
+            "countryCode": "TR",
+            "region": "Marmara"
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "hey@jolienhoop.com",
-                "url": "mailto:hey@jolienhoop.com",
+                "username": "hi@erengun.dev",
+                "url": "mailto:hi@erengun.dev",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "LinkedIn",
-                "username": "jolienhoop",
-                "url": "https://www.linkedin.com/in/jolienhoop/",
+                "username": "erengun",
+                "url": "https://www.linkedin.com/in/erengun/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "johoop",
-                "url": "https://github.com/JoHoop",
+                "username": "Erengun",
+                "url": "https://github.com/Erengun",
                 "x_icon": "fab fa-github"
-            },
-            {
-                "network": "GitLab",
-                "username": "joli",
-                "url": "https://gitlab.informatik.uni-bremen.de/joli",
-                "x_icon": "fab fa-gitlab"
             }
         ]
     },
     "work": [
         {
-            "company": "Company",
-            "position": "President",
+            "company": "Shipgrande - Shipping rate calculation system",
+            "position": "Flutter developer",
             "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "highlights": ["Started the company"]
+            "startDate": "2022-12-30",
+            "endDate": "still working",
+            "summary": "Shipgrande is a rate calculation system for FedEx shipping written in Flutter.",
+            "highlights": [
+                "I was responsible for the development of the web app. I used Flutter and Dart for the development of the web app and Node js for the backend. I wrote more than 8 thousand lines of code in Flutter and Dart. I also wrote more than 2 thousand lines of code in Node js."
+            ],
+            "keywords": [
+                "Mobx",
+                "Flutter",
+                "Dart",
+                "Node.js",
+                "Go Router",
+                "GetX"
+            ]
+        },
+        {
+            "company": "Tinywall - Mobile app",
+            "position": "Flutter developer",
+            "website": "https://www.tinywall.app/",
+            "startDate": "2023-02-02",
+            "endDate": "still working",
+            "summary": "Tinywall is a mobile app for making car parking more easy and memorable. It is written in Flutter.",
+            "highlights": "Tinywall is a mobile app for making car parking more easy and memorable. It is written in Flutter. I was responsible for the development of the mobile app. I wrote more than 7 thousand lines of code in Flutter and Dart. The project uses Mobx for state management and GetIt for dependency injection.",
+            "keywords": [
+                "Native Splash",
+                "Fluro Routing",
+                "Theme",
+                "Dio",
+                "MobX",
+                "Provider",
+                "User Notifications",
+                "Logging",
+                "Dependency Injection",
+                "Firebase",
+                "Native Share",
+                "in_app_purchases",
+                "google_mobile_ads",
+                "flutter_local_notifications",
+                "google_sign_in"
+            ]
+        },
+        {
+            "company": "GOHouse - Mobile app",
+            "position": "Full-stack Application Developer",
+            "website": "",
+            "startDate": "2022-11-01",
+            "endDate": "2023-01-01",
+            "summary": "GOHouse is a mobile app for about online house chores services.",
+            "highlights": "GOHouse is a mobile app for about online house chores services. I was responsible for the development of the entire mobile app. I wrote more than 5 thousand lines of code in Flutter and Dart. The project uses Mobx for state management and GetIt for dependency injection.",
+            "keywords": [
+                "Native Splash",
+                "Fluro Routing",
+                "Theme",
+                "Dio",
+                "MobX",
+                "Provider",
+                "User Notifications",
+                "Logging",
+                "Dependency Injection",
+                "Firebase"
+            ]
+        },
+        {
+            "company": "Sende.tech - Startup",
+            "position": "Web developer",
+            "website": "https://sende.tech/",
+            "startDate": "2022-05-01",
+            "endDate": "2022-07-01",
+            "summary": "Sende.tech is a startup for making shipping completely automated using UAV technologies.",
+            "highlights": "Sende.tech is a startup for making shipping completely automated using UAV technologies. I was responsible for the development of the entire web app.",
+            "keywords": [
+                "UAV",
+                "Tubitak BIGG",
+                "Web",
+                "Startup"
+            ]
+        },
+        {
+            "company": "Piramit Tech - Cloud based software company",
+            "position": "Software developer intern",
+            "website": "https://www.piramit.com.tr",
+            "startDate": "2018-06-01",
+            "endDate": "2018-09-01",
+            "summary": "Piramit Tech is a cloud based software company. Company provides cloud based solutions for companies.",
+            "highlights": "During my internship, I learned about cloud based software development. I learned technologies like Watchguard firewall and I configured it for the company. I also learned about cloud based software development and I developed a cloud based software for a company.",
+            "keywords": [
+                "Watchguard",
+                "Firewall",
+                "Cloud",
+                "Software",
+                "Internship"
+            ]
         }
     ],
     "volunteer": [
         {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
+            "organization": "Vorfex42 - Software development community",
+            "position": "Creator",
+            "website": "-",
+            "startDate": "2020-01-01",
+            "endDate": "2024-01-01",
             "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
         }
     ],
     "education": [
@@ -76,7 +160,9 @@
             "startDate": "2011-01-01",
             "endDate": "2013-01-01",
             "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
         }
     ],
     "awards": [
@@ -100,7 +186,11 @@
         {
             "name": "Web Development",
             "level": "Master",
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ]
         }
     ],
     "languages": [
@@ -120,7 +210,10 @@
     "interests": [
         {
             "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
         }
     ],
     "references": [
