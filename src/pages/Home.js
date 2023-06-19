@@ -8,6 +8,8 @@ import { ThemeToggle } from '../components/theme/ThemeToggle';
 import { FooterText } from '../components/footer/FooterText';
 import { SocialIcons } from '../components/content/SocialIcons';
 import { SpeedDials } from '../components/speedDial/SpeedDial';
+import { ScrollIndicator } from '../components/footer/ScrollComponent';
+
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -34,6 +36,7 @@ export const Home = () => {
           <SpeedDials />
         </Hidden>
         <FooterText />
+        <ScrollIndicator />
       </div>
     </>
   );

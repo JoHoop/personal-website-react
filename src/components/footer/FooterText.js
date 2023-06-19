@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Link } from '@material-ui/core';
 import { TextDecrypt } from '../content/TextDecrypt';
-import { HeartIcon } from '../content/SponsorButton';
+import { DownloadResumeIcon } from '../content/SponsorButton';
 
 const useStyles = makeStyles((theme) => ({
   footerText: {
@@ -31,9 +31,9 @@ export const FooterText = () => {
       rel='noopener noreferrer'
       className={classes.footerText}
     >
-      <HeartIcon />
+      <DownloadResumeIcon />
       <Typography variant='body1'>
-        <TextDecrypt text={' Sponsor'} />
+        <TextDecrypt text={' Download Resume'} />
       </Typography>
     </Link>
   );
